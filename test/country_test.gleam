@@ -1,13 +1,3 @@
-# Country
-
-[![Package Version](https://img.shields.io/hexpm/v/country)](https://hex.pm/packages/country)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/country/)
-
-```sh
-gleam add country@1
-```
-
-```gleam
 import country
 
 pub fn main() -> Nil {
@@ -32,6 +22,3 @@ pub fn main() -> Nil {
 
   Nil
 }
-```
-
-Further documentation can be found at <https://hexdocs.pm/country>.

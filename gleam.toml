@@ -1,9 +1,9 @@
-name = "countries"
+name = "country"
 version = "1.0.0"
 
 description = "🗺️ Types for standard country representations"
 licences = ["Apache-2.0"]
-repository = { type = "github", user = "gleam-common-standards", repo = "countries" }
+repository = { type = "github", user = "gleam-common-standards", repo = "country" }
 
 [dependencies]
 gleam_stdlib = ">= 0.44.0 and < 2.0.0"
