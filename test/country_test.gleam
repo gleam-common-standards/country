@@ -3,11 +3,11 @@ import country
 pub fn main() -> Nil {
   // get an Alpha3Code representation from the string
   let assert Ok(usa) = country.alpha_3_code_from_string("USA")
-  assert usa == country.USA
+  assert usa == country.Usa
 
   // get an Alpha2Code representation from the string
   let assert Ok(us) = country.alpha_2_code_from_string("US")
-  assert us == country.US
+  assert us == country.Us
 
   // get the base Country type from both Alpha3Code and Alpha2Code and compare
   assert country.from_alpha_3_code(usa) == country.from_alpha_2_code(us)

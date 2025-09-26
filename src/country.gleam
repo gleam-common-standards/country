@@ -516,509 +516,509 @@ pub const all: List(Country) = [
 /// standard ISO3166_1
 /// source https://www.iso.org/obp/ui/#search/code/
 pub type Alpha2Code {
-  AF
-  AX
-  AL
-  DZ
-  AS
-  AD
-  AO
-  AI
-  AQ
-  AG
-  AR
-  AM
-  AW
-  AU
-  AT
-  AZ
-  BS
-  BH
-  BD
-  BB
-  BY
-  BE
-  BZ
-  BJ
-  BM
-  BT
-  BO
-  BQ
-  BA
-  BW
-  BV
-  BR
-  IO
-  BN
-  BG
-  BF
-  BI
-  CV
-  KH
-  CM
-  CA
-  KY
-  CF
-  TD
-  CL
-  CN
-  CX
-  CC
-  CO
-  KM
-  CG
-  CD
-  CK
-  CR
-  CI
-  HR
-  CU
-  CW
-  CY
-  CZ
-  DK
-  DJ
-  DM
-  DO
-  EC
-  EG
-  SV
-  GQ
-  ER
-  EE
-  SZ
-  ET
-  FK
-  FO
-  FJ
-  FI
-  FR
-  GF
-  PF
-  TF
-  GA
-  GM
-  GE
-  DE
-  GH
-  GI
-  GR
-  GL
-  GD
-  GP
-  GU
-  GT
-  GG
-  GN
-  GW
-  GY
-  HT
-  HM
-  VA
-  HN
-  HK
-  HU
-  IS
-  IN
-  ID
-  IR
-  IQ
-  IE
-  IM
-  IL
-  IT
-  JM
-  JP
-  JE
-  JO
-  KZ
-  KE
-  KI
-  KP
-  KR
-  KW
-  KG
-  LA
-  LV
-  LB
-  LS
-  LR
-  LY
-  LI
-  LT
-  LU
-  MO
-  MG
-  MW
-  MY
-  MV
-  ML
-  MT
-  MH
-  MQ
-  MR
-  MU
-  YT
-  MX
-  FM
-  MD
-  MC
-  MN
-  ME
-  MS
-  MA
-  MZ
-  MM
-  NA
-  NR
-  NP
-  NL
-  NC
-  NZ
-  NI
-  NE
-  NG
-  NU
-  NF
-  MK
-  MP
-  NO
-  OM
-  PK
-  PW
-  PS
-  PA
-  PG
-  PY
-  PE
-  PH
-  PN
-  PL
-  PT
-  PR
-  QA
-  RE
-  RO
-  RU
-  RW
-  BL
-  SH
-  KN
-  LC
-  MF
-  PM
-  VC
-  WS
-  SM
-  ST
-  SA
-  SN
-  RS
-  SC
-  SL
-  SG
-  SX
-  SK
-  SI
-  SB
-  SO
-  ZA
-  GS
-  SS
-  ES
-  LK
-  SD
-  SR
-  SJ
-  SE
-  CH
-  SY
-  TW
-  TJ
-  TZ
-  TH
-  TL
-  TG
-  TK
-  TO
-  TT
-  TN
-  TR
-  TM
-  TC
-  TV
-  UG
-  UA
-  AE
-  GB
-  UM
-  US
-  UY
-  UZ
-  VU
-  VE
-  VN
-  VG
-  VI
-  WF
-  EH
-  YE
-  ZM
-  ZW
+  Af
+  Ax
+  Al
+  Dz
+  As
+  Ad
+  Ao
+  Ai
+  Aq
+  Ag
+  Ar
+  Am
+  Aw
+  Au
+  At
+  Az
+  Bs
+  Bh
+  Bd
+  Bb
+  By
+  Be
+  Bz
+  Bj
+  Bm
+  Bt
+  Bo
+  Bq
+  Ba
+  Bw
+  Bv
+  Br
+  Io
+  Bn
+  Bg
+  Bf
+  Bi
+  Cv
+  Kh
+  Cm
+  Ca
+  Ky
+  Cf
+  Td
+  Cl
+  Cn
+  Cx
+  Cc
+  Co
+  Km
+  Cg
+  Cd
+  Ck
+  Cr
+  Ci
+  Hr
+  Cu
+  Cw
+  Cy
+  Cz
+  Dk
+  Dj
+  Dm
+  Do
+  Ec
+  Eg
+  Sv
+  Gq
+  Er
+  Ee
+  Sz
+  Et
+  Fk
+  Fo
+  Fj
+  Fi
+  Fr
+  Gf
+  Pf
+  Tf
+  Ga
+  Gm
+  Ge
+  De
+  Gh
+  Gi
+  Gr
+  Gl
+  Gd
+  Gp
+  Gu
+  Gt
+  Gg
+  Gn
+  Gw
+  Gy
+  Ht
+  Hm
+  Va
+  Hn
+  Hk
+  Hu
+  Is
+  In
+  Id
+  Ir
+  Iq
+  Ie
+  Im
+  Il
+  It
+  Jm
+  Jp
+  Je
+  Jo
+  Kz
+  Ke
+  Ki
+  Kp
+  Kr
+  Kw
+  Kg
+  La
+  Lv
+  Lb
+  Ls
+  Lr
+  Ly
+  Li
+  Lt
+  Lu
+  Mo
+  Mg
+  Mw
+  My
+  Mv
+  Ml
+  Mt
+  Mh
+  Mq
+  Mr
+  Mu
+  Yt
+  Mx
+  Fm
+  Md
+  Mc
+  Mn
+  Me
+  Ms
+  Ma
+  Mz
+  Mm
+  Na
+  Nr
+  Np
+  Nl
+  Nc
+  Nz
+  Ni
+  Ne
+  Ng
+  Nu
+  Nf
+  Mk
+  Mp
+  No
+  Om
+  Pk
+  Pw
+  Ps
+  Pa
+  Pg
+  Py
+  Pe
+  Ph
+  Pn
+  Pl
+  Pt
+  Pr
+  Qa
+  Re
+  Ro
+  Ru
+  Rw
+  Bl
+  Sh
+  Kn
+  Lc
+  Mf
+  Pm
+  Vc
+  Ws
+  Sm
+  St
+  Sa
+  Sn
+  Rs
+  Sc
+  Sl
+  Sg
+  Sx
+  Sk
+  Si
+  Sb
+  So
+  Za
+  Gs
+  Ss
+  Es
+  Lk
+  Sd
+  Sr
+  Sj
+  Se
+  Ch
+  Sy
+  Tw
+  Tj
+  Tz
+  Th
+  Tl
+  Tg
+  Tk
+  To
+  Tt
+  Tn
+  Tr
+  Tm
+  Tc
+  Tv
+  Ug
+  Ua
+  Ae
+  Gb
+  Um
+  Us
+  Uy
+  Uz
+  Vu
+  Ve
+  Vn
+  Vg
+  Vi
+  Wf
+  Eh
+  Ye
+  Zm
+  Zw
 }
 
 /// standard ISO3166_1
 /// source https://www.iso.org/obp/ui/#search/code/
 pub type Alpha3Code {
-  AFG
-  ALA
-  ALB
-  DZA
-  ASM
-  AND
-  AGO
-  AIA
-  ATA
-  ATG
-  ARG
-  ARM
-  ABW
-  AUS
-  AUT
-  AZE
-  BHS
-  BHR
-  BGD
-  BRB
-  BLR
-  BEL
-  BLZ
-  BEN
-  BMU
-  BTN
-  BOL
-  BES
-  BIH
-  BWA
-  BVT
-  BRA
-  IOT
-  BRN
-  BGR
-  BFA
-  BDI
-  CPV
-  KHM
-  CMR
-  CAN
-  CYM
-  CAF
-  TCD
-  CHL
-  CHN
-  CXR
-  CCK
-  COL
-  COM
-  COG
-  COD
-  COK
-  CRI
-  CIV
-  HRV
-  CUB
-  CUW
-  CYP
-  CZE
-  DNK
-  DJI
-  DMA
-  DOM
-  ECU
-  EGY
-  SLV
-  GNQ
-  ERI
-  EST
-  SWZ
-  ETH
-  FLK
-  FRO
-  FJI
-  FIN
-  FRA
-  GUF
-  PYF
-  ATF
-  GAB
-  GMB
-  GEO
-  DEU
-  GHA
-  GIB
-  GRC
-  GRL
-  GRD
-  GLP
-  GUM
-  GTM
-  GGY
-  GIN
-  GNB
-  GUY
-  HTI
-  HMD
-  VAT
-  HND
-  HKG
-  HUN
-  ISL
-  IND
-  IDN
-  IRN
-  IRQ
-  IRL
-  IMN
-  ISR
-  ITA
-  JAM
-  JPN
-  JEY
-  JOR
-  KAZ
-  KEN
-  KIR
-  PRK
-  KOR
-  KWT
-  KGZ
-  LAO
-  LVA
-  LBN
-  LSO
-  LBR
-  LBY
-  LIE
-  LTU
-  LUX
-  MAC
-  MDG
-  MWI
-  MYS
-  MDV
-  MLI
-  MLT
-  MHL
-  MTQ
-  MRT
-  MUS
-  MYT
-  MEX
-  FSM
-  MDA
-  MCO
-  MNG
-  MNE
-  MSR
-  MAR
-  MOZ
-  MMR
-  NAM
-  NRU
-  NPL
-  NLD
-  NCL
-  NZL
-  NIC
-  NER
-  NGA
-  NIU
-  NFK
-  MKD
-  MNP
-  NOR
-  OMN
-  PAK
-  PLW
-  PSE
-  PAN
-  PNG
-  PRY
-  PER
-  PHL
-  PCN
-  POL
-  PRT
-  PRI
-  QAT
-  REU
-  ROU
-  RUS
-  RWA
-  BLM
-  SHN
-  KNA
-  LCA
-  MAF
-  SPM
-  VCT
-  WSM
-  SMR
-  STP
-  SAU
-  SEN
-  SRB
-  SYC
-  SLE
-  SGP
-  SXM
-  SVK
-  SVN
-  SLB
-  SOM
-  ZAF
-  SGS
-  SSD
-  ESP
-  LKA
-  SDN
-  SUR
-  SJM
-  SWE
-  CHE
-  SYR
-  TWN
-  TJK
-  TZA
-  THA
-  TLS
-  TGO
-  TKL
-  TON
-  TTO
-  TUN
-  TUR
-  TKM
-  TCA
-  TUV
-  UGA
-  UKR
-  ARE
-  GBR
-  UMI
-  USA
-  URY
-  UZB
-  VUT
-  VEN
-  VNM
-  VGB
-  VIR
-  WLF
-  ESH
-  YEM
-  ZMB
-  ZWE
+  Afg
+  Ala
+  Alb
+  Dza
+  Asm
+  And
+  Ago
+  Aia
+  Ata
+  Atg
+  Arg
+  Arm
+  Abw
+  Aus
+  Aut
+  Aze
+  Bhs
+  Bhr
+  Bgd
+  Brb
+  Blr
+  Bel
+  Blz
+  Ben
+  Bmu
+  Btn
+  Bol
+  Bes
+  Bih
+  Bwa
+  Bvt
+  Bra
+  Iot
+  Brn
+  Bgr
+  Bfa
+  Bdi
+  Cpv
+  Khm
+  Cmr
+  Can
+  Cym
+  Caf
+  Tcd
+  Chl
+  Chn
+  Cxr
+  Cck
+  Col
+  Com
+  Cog
+  Cod
+  Cok
+  Cri
+  Civ
+  Hrv
+  Cub
+  Cuw
+  Cyp
+  Cze
+  Dnk
+  Dji
+  Dma
+  Dom
+  Ecu
+  Egy
+  Slv
+  Gnq
+  Eri
+  Est
+  Swz
+  Eth
+  Flk
+  Fro
+  Fji
+  Fin
+  Fra
+  Guf
+  Pyf
+  Atf
+  Gab
+  Gmb
+  Geo
+  Deu
+  Gha
+  Gib
+  Grc
+  Grl
+  Grd
+  Glp
+  Gum
+  Gtm
+  Ggy
+  Gin
+  Gnb
+  Guy
+  Hti
+  Hmd
+  Vat
+  Hnd
+  Hkg
+  Hun
+  Isl
+  Ind
+  Idn
+  Irn
+  Irq
+  Irl
+  Imn
+  Isr
+  Ita
+  Jam
+  Jpn
+  Jey
+  Jor
+  Kaz
+  Ken
+  Kir
+  Prk
+  Kor
+  Kwt
+  Kgz
+  Lao
+  Lva
+  Lbn
+  Lso
+  Lbr
+  Lby
+  Lie
+  Ltu
+  Lux
+  Mac
+  Mdg
+  Mwi
+  Mys
+  Mdv
+  Mli
+  Mlt
+  Mhl
+  Mtq
+  Mrt
+  Mus
+  Myt
+  Mex
+  Fsm
+  Mda
+  Mco
+  Mng
+  Mne
+  Msr
+  Mar
+  Moz
+  Mmr
+  Nam
+  Nru
+  Npl
+  Nld
+  Ncl
+  Nzl
+  Nic
+  Ner
+  Nga
+  Niu
+  Nfk
+  Mkd
+  Mnp
+  Nor
+  Omn
+  Pak
+  Plw
+  Pse
+  Pan
+  Png
+  Pry
+  Per
+  Phl
+  Pcn
+  Pol
+  Prt
+  Pri
+  Qat
+  Reu
+  Rou
+  Rus
+  Rwa
+  Blm
+  Shn
+  Kna
+  Lca
+  Maf
+  Spm
+  Vct
+  Wsm
+  Smr
+  Stp
+  Sau
+  Sen
+  Srb
+  Syc
+  Sle
+  Sgp
+  Sxm
+  Svk
+  Svn
+  Slb
+  Som
+  Zaf
+  Sgs
+  Ssd
+  Esp
+  Lka
+  Sdn
+  Sur
+  Sjm
+  Swe
+  Che
+  Syr
+  Twn
+  Tjk
+  Tza
+  Tha
+  Tls
+  Tgo
+  Tkl
+  Ton
+  Tto
+  Tun
+  Tur
+  Tkm
+  Tca
+  Tuv
+  Uga
+  Ukr
+  Are
+  Gbr
+  Umi
+  Usa
+  Ury
+  Uzb
+  Vut
+  Ven
+  Vnm
+  Vgb
+  Vir
+  Wlf
+  Esh
+  Yem
+  Zmb
+  Zwe
 }
 
 /// standard ISO3166_1
@@ -1285,255 +1285,255 @@ pub fn name(country c: Country) -> String {
 /// source https://www.iso.org/obp/ui/#search/code/
 pub fn to_alpha_2_code(country c: Country) -> Alpha2Code {
   case c {
-    Afghanistan -> AF
-    AlandIslands -> AX
-    Albania -> AL
-    Algeria -> DZ
-    AmericanSamoa -> AS
-    Andorra -> AD
-    Angola -> AO
-    Anguilla -> AI
-    Antarctica -> AQ
-    AntiguaAndBarbuda -> AG
-    Argentina -> AR
-    Armenia -> AM
-    Aruba -> AW
-    Australia -> AU
-    Austria -> AT
-    Azerbaijan -> AZ
-    Bahamas -> BS
-    Bahrain -> BH
-    Bangladesh -> BD
-    Barbados -> BB
-    Belarus -> BY
-    Belgium -> BE
-    Belize -> BZ
-    Benin -> BJ
-    Bermuda -> BM
-    Bhutan -> BT
-    Bolivia -> BO
-    BonaireSintEustatiusAndSaba -> BQ
-    BosniaAndHerzegovina -> BA
-    Botswana -> BW
-    BouvetIsland -> BV
-    Brazil -> BR
-    BritishIndianOceanTerritory -> IO
-    BruneiDarussalam -> BN
-    Bulgaria -> BG
-    BurkinaFaso -> BF
-    Burundi -> BI
-    CaboVerde -> CV
-    Cambodia -> KH
-    Cameroon -> CM
-    Canada -> CA
-    CaymanIslands -> KY
-    CentralAfricanRepublic -> CF
-    Chad -> TD
-    Chile -> CL
-    China -> CN
-    ChristmasIsland -> CX
-    CocosIslands -> CC
-    Colombia -> CO
-    Comoros -> KM
-    Congo -> CG
-    CongoDemocraticRepublic -> CD
-    CookIslands -> CK
-    CostaRica -> CR
-    CoteDIvoire -> CI
-    Croatia -> HR
-    Cuba -> CU
-    Curacao -> CW
-    Cyprus -> CY
-    Czechia -> CZ
-    Denmark -> DK
-    Djibouti -> DJ
-    Dominica -> DM
-    DominicanRepublic -> DO
-    Ecuador -> EC
-    Egypt -> EG
-    ElSalvador -> SV
-    EquatorialGuinea -> GQ
-    Eritrea -> ER
-    Estonia -> EE
-    Eswatini -> SZ
-    Ethiopia -> ET
-    FalklandIslands -> FK
-    FaroeIslands -> FO
-    Fiji -> FJ
-    Finland -> FI
-    France -> FR
-    FrenchGuiana -> GF
-    FrenchPolynesia -> PF
-    FrenchSouthernTerritories -> TF
-    Gabon -> GA
-    Gambia -> GM
-    Georgia -> GE
-    Germany -> DE
-    Ghana -> GH
-    Gibraltar -> GI
-    Greece -> GR
-    Greenland -> GL
-    Grenada -> GD
-    Guadeloupe -> GP
-    Guam -> GU
-    Guatemala -> GT
-    Guernsey -> GG
-    Guinea -> GN
-    GuineaBissau -> GW
-    Guyana -> GY
-    Haiti -> HT
-    HeardIslandAndMcDonaldIslands -> HM
-    HolySee -> VA
-    Honduras -> HN
-    HongKong -> HK
-    Hungary -> HU
-    Iceland -> IS
-    India -> IN
-    Indonesia -> ID
-    Iran -> IR
-    Iraq -> IQ
-    Ireland -> IE
-    IsleOfMan -> IM
-    Israel -> IL
-    Italy -> IT
-    Jamaica -> JM
-    Japan -> JP
-    Jersey -> JE
-    Jordan -> JO
-    Kazakhstan -> KZ
-    Kenya -> KE
-    Kiribati -> KI
-    KoreaDemocraticPeoplesRepublic -> KP
-    KoreaRepublic -> KR
-    Kuwait -> KW
-    Kyrgyzstan -> KG
-    LaoPeoplesDemocraticRepublic -> LA
-    Latvia -> LV
-    Lebanon -> LB
-    Lesotho -> LS
-    Liberia -> LR
-    Libya -> LY
-    Liechtenstein -> LI
-    Lithuania -> LT
-    Luxembourg -> LU
-    Macao -> MO
-    Madagascar -> MG
-    Malawi -> MW
-    Malaysia -> MY
-    Maldives -> MV
-    Mali -> ML
-    Malta -> MT
-    MarshallIslands -> MH
-    Martinique -> MQ
-    Mauritania -> MR
-    Mauritius -> MU
-    Mayotte -> YT
-    Mexico -> MX
-    Micronesia -> FM
-    Moldova -> MD
-    Monaco -> MC
-    Mongolia -> MN
-    Montenegro -> ME
-    Montserrat -> MS
-    Morocco -> MA
-    Mozambique -> MZ
-    Myanmar -> MM
-    Namibia -> NA
-    Nauru -> NR
-    Nepal -> NP
-    Netherlands -> NL
-    NewCaledonia -> NC
-    NewZealand -> NZ
-    Nicaragua -> NI
-    Niger -> NE
-    Nigeria -> NG
-    Niue -> NU
-    NorfolkIsland -> NF
-    NorthMacedonia -> MK
-    NorthernMarianaIslands -> MP
-    Norway -> NO
-    Oman -> OM
-    Pakistan -> PK
-    Palau -> PW
-    Palestine -> PS
-    Panama -> PA
-    PapuaNewGuinea -> PG
-    Paraguay -> PY
-    Peru -> PE
-    Philippines -> PH
-    Pitcairn -> PN
-    Poland -> PL
-    Portugal -> PT
-    PuertoRico -> PR
-    Qatar -> QA
-    Reunion -> RE
-    Romania -> RO
-    RussianFederation -> RU
-    Rwanda -> RW
-    SaintBarthelemy -> BL
-    SaintHelenaAscensionTristanDaCunha -> SH
-    SaintKittsAndNevis -> KN
-    SaintLucia -> LC
-    SaintMartinFrenchPart -> MF
-    SaintPierreAndMiquelon -> PM
-    SaintVincentAndTheGrenadines -> VC
-    Samoa -> WS
-    SanMarino -> SM
-    SaoTomeAndPrincipe -> ST
-    SaudiArabia -> SA
-    Senegal -> SN
-    Serbia -> RS
-    Seychelles -> SC
-    SierraLeone -> SL
-    Singapore -> SG
-    SintMaartenDutchPart -> SX
-    Slovakia -> SK
-    Slovenia -> SI
-    SolomonIslands -> SB
-    Somalia -> SO
-    SouthAfrica -> ZA
-    SouthGeorgiaSouthSandwichIslands -> GS
-    SouthSudan -> SS
-    Spain -> ES
-    SriLanka -> LK
-    Sudan -> SD
-    Suriname -> SR
-    SvalbardJanMayen -> SJ
-    Sweden -> SE
-    Switzerland -> CH
-    SyrianArabRepublic -> SY
-    TaiwanProvinceOfChina -> TW
-    Tajikistan -> TJ
-    Tanzania -> TZ
-    Thailand -> TH
-    TimorLeste -> TL
-    Togo -> TG
-    Tokelau -> TK
-    Tonga -> TO
-    TrinidadAndTobago -> TT
-    Tunisia -> TN
-    Turkey -> TR
-    Turkmenistan -> TM
-    TurksAndCaicosIslands -> TC
-    Tuvalu -> TV
-    Uganda -> UG
-    Ukraine -> UA
-    UnitedArabEmirates -> AE
-    UnitedKingdom -> GB
-    UnitedStatesOfAmerica -> US
-    UnitedStatesOutlyingIslands -> UM
-    Uruguay -> UY
-    Uzbekistan -> UZ
-    Vanuatu -> VU
-    Venezuela -> VE
-    VietNam -> VN
-    VirginIslandsBritish -> VG
-    VirginIslandsUS -> VI
-    WallisAndFutuna -> WF
-    WesternSahara -> EH
-    Yemen -> YE
-    Zambia -> ZM
-    Zimbabwe -> ZW
+    Afghanistan -> Af
+    AlandIslands -> Ax
+    Albania -> Al
+    Algeria -> Dz
+    AmericanSamoa -> As
+    Andorra -> Ad
+    Angola -> Ao
+    Anguilla -> Ai
+    Antarctica -> Aq
+    AntiguaAndBarbuda -> Ag
+    Argentina -> Ar
+    Armenia -> Am
+    Aruba -> Aw
+    Australia -> Au
+    Austria -> At
+    Azerbaijan -> Az
+    Bahamas -> Bs
+    Bahrain -> Bh
+    Bangladesh -> Bd
+    Barbados -> Bb
+    Belarus -> By
+    Belgium -> Be
+    Belize -> Bz
+    Benin -> Bj
+    Bermuda -> Bm
+    Bhutan -> Bt
+    Bolivia -> Bo
+    BonaireSintEustatiusAndSaba -> Bq
+    BosniaAndHerzegovina -> Ba
+    Botswana -> Bw
+    BouvetIsland -> Bv
+    Brazil -> Br
+    BritishIndianOceanTerritory -> Io
+    BruneiDarussalam -> Bn
+    Bulgaria -> Bg
+    BurkinaFaso -> Bf
+    Burundi -> Bi
+    CaboVerde -> Cv
+    Cambodia -> Kh
+    Cameroon -> Cm
+    Canada -> Ca
+    CaymanIslands -> Ky
+    CentralAfricanRepublic -> Cf
+    Chad -> Td
+    Chile -> Cl
+    China -> Cn
+    ChristmasIsland -> Cx
+    CocosIslands -> Cc
+    Colombia -> Co
+    Comoros -> Km
+    Congo -> Cg
+    CongoDemocraticRepublic -> Cd
+    CookIslands -> Ck
+    CostaRica -> Cr
+    CoteDIvoire -> Ci
+    Croatia -> Hr
+    Cuba -> Cu
+    Curacao -> Cw
+    Cyprus -> Cy
+    Czechia -> Cz
+    Denmark -> Dk
+    Djibouti -> Dj
+    Dominica -> Dm
+    DominicanRepublic -> Do
+    Ecuador -> Ec
+    Egypt -> Eg
+    ElSalvador -> Sv
+    EquatorialGuinea -> Gq
+    Eritrea -> Er
+    Estonia -> Ee
+    Eswatini -> Sz
+    Ethiopia -> Et
+    FalklandIslands -> Fk
+    FaroeIslands -> Fo
+    Fiji -> Fj
+    Finland -> Fi
+    France -> Fr
+    FrenchGuiana -> Gf
+    FrenchPolynesia -> Pf
+    FrenchSouthernTerritories -> Tf
+    Gabon -> Ga
+    Gambia -> Gm
+    Georgia -> Ge
+    Germany -> De
+    Ghana -> Gh
+    Gibraltar -> Gi
+    Greece -> Gr
+    Greenland -> Gl
+    Grenada -> Gd
+    Guadeloupe -> Gp
+    Guam -> Gu
+    Guatemala -> Gt
+    Guernsey -> Gg
+    Guinea -> Gn
+    GuineaBissau -> Gw
+    Guyana -> Gy
+    Haiti -> Ht
+    HeardIslandAndMcDonaldIslands -> Hm
+    HolySee -> Va
+    Honduras -> Hn
+    HongKong -> Hk
+    Hungary -> Hu
+    Iceland -> Is
+    India -> In
+    Indonesia -> Id
+    Iran -> Ir
+    Iraq -> Iq
+    Ireland -> Ie
+    IsleOfMan -> Im
+    Israel -> Il
+    Italy -> It
+    Jamaica -> Jm
+    Japan -> Jp
+    Jersey -> Je
+    Jordan -> Jo
+    Kazakhstan -> Kz
+    Kenya -> Ke
+    Kiribati -> Ki
+    KoreaDemocraticPeoplesRepublic -> Kp
+    KoreaRepublic -> Kr
+    Kuwait -> Kw
+    Kyrgyzstan -> Kg
+    LaoPeoplesDemocraticRepublic -> La
+    Latvia -> Lv
+    Lebanon -> Lb
+    Lesotho -> Ls
+    Liberia -> Lr
+    Libya -> Ly
+    Liechtenstein -> Li
+    Lithuania -> Lt
+    Luxembourg -> Lu
+    Macao -> Mo
+    Madagascar -> Mg
+    Malawi -> Mw
+    Malaysia -> My
+    Maldives -> Mv
+    Mali -> Ml
+    Malta -> Mt
+    MarshallIslands -> Mh
+    Martinique -> Mq
+    Mauritania -> Mr
+    Mauritius -> Mu
+    Mayotte -> Yt
+    Mexico -> Mx
+    Micronesia -> Fm
+    Moldova -> Md
+    Monaco -> Mc
+    Mongolia -> Mn
+    Montenegro -> Me
+    Montserrat -> Ms
+    Morocco -> Ma
+    Mozambique -> Mz
+    Myanmar -> Mm
+    Namibia -> Na
+    Nauru -> Nr
+    Nepal -> Np
+    Netherlands -> Nl
+    NewCaledonia -> Nc
+    NewZealand -> Nz
+    Nicaragua -> Ni
+    Niger -> Ne
+    Nigeria -> Ng
+    Niue -> Nu
+    NorfolkIsland -> Nf
+    NorthMacedonia -> Mk
+    NorthernMarianaIslands -> Mp
+    Norway -> No
+    Oman -> Om
+    Pakistan -> Pk
+    Palau -> Pw
+    Palestine -> Ps
+    Panama -> Pa
+    PapuaNewGuinea -> Pg
+    Paraguay -> Py
+    Peru -> Pe
+    Philippines -> Ph
+    Pitcairn -> Pn
+    Poland -> Pl
+    Portugal -> Pt
+    PuertoRico -> Pr
+    Qatar -> Qa
+    Reunion -> Re
+    Romania -> Ro
+    RussianFederation -> Ru
+    Rwanda -> Rw
+    SaintBarthelemy -> Bl
+    SaintHelenaAscensionTristanDaCunha -> Sh
+    SaintKittsAndNevis -> Kn
+    SaintLucia -> Lc
+    SaintMartinFrenchPart -> Mf
+    SaintPierreAndMiquelon -> Pm
+    SaintVincentAndTheGrenadines -> Vc
+    Samoa -> Ws
+    SanMarino -> Sm
+    SaoTomeAndPrincipe -> St
+    SaudiArabia -> Sa
+    Senegal -> Sn
+    Serbia -> Rs
+    Seychelles -> Sc
+    SierraLeone -> Sl
+    Singapore -> Sg
+    SintMaartenDutchPart -> Sx
+    Slovakia -> Sk
+    Slovenia -> Si
+    SolomonIslands -> Sb
+    Somalia -> So
+    SouthAfrica -> Za
+    SouthGeorgiaSouthSandwichIslands -> Gs
+    SouthSudan -> Ss
+    Spain -> Es
+    SriLanka -> Lk
+    Sudan -> Sd
+    Suriname -> Sr
+    SvalbardJanMayen -> Sj
+    Sweden -> Se
+    Switzerland -> Ch
+    SyrianArabRepublic -> Sy
+    TaiwanProvinceOfChina -> Tw
+    Tajikistan -> Tj
+    Tanzania -> Tz
+    Thailand -> Th
+    TimorLeste -> Tl
+    Togo -> Tg
+    Tokelau -> Tk
+    Tonga -> To
+    TrinidadAndTobago -> Tt
+    Tunisia -> Tn
+    Turkey -> Tr
+    Turkmenistan -> Tm
+    TurksAndCaicosIslands -> Tc
+    Tuvalu -> Tv
+    Uganda -> Ug
+    Ukraine -> Ua
+    UnitedArabEmirates -> Ae
+    UnitedKingdom -> Gb
+    UnitedStatesOfAmerica -> Us
+    UnitedStatesOutlyingIslands -> Um
+    Uruguay -> Uy
+    Uzbekistan -> Uz
+    Vanuatu -> Vu
+    Venezuela -> Ve
+    VietNam -> Vn
+    VirginIslandsBritish -> Vg
+    VirginIslandsUS -> Vi
+    WallisAndFutuna -> Wf
+    WesternSahara -> Eh
+    Yemen -> Ye
+    Zambia -> Zm
+    Zimbabwe -> Zw
   }
 }
 
@@ -1541,255 +1541,255 @@ pub fn to_alpha_2_code(country c: Country) -> Alpha2Code {
 /// source https://www.iso.org/obp/ui/#search/code/
 pub fn from_alpha_2_code(code a: Alpha2Code) -> Country {
   case a {
-    AF -> Afghanistan
-    AX -> AlandIslands
-    AL -> Albania
-    DZ -> Algeria
-    AS -> AmericanSamoa
-    AD -> Andorra
-    AO -> Angola
-    AI -> Anguilla
-    AQ -> Antarctica
-    AG -> AntiguaAndBarbuda
-    AR -> Argentina
-    AM -> Armenia
-    AW -> Aruba
-    AU -> Australia
-    AT -> Austria
-    AZ -> Azerbaijan
-    BS -> Bahamas
-    BH -> Bahrain
-    BD -> Bangladesh
-    BB -> Barbados
-    BY -> Belarus
-    BE -> Belgium
-    BZ -> Belize
-    BJ -> Benin
-    BM -> Bermuda
-    BT -> Bhutan
-    BO -> Bolivia
-    BQ -> BonaireSintEustatiusAndSaba
-    BA -> BosniaAndHerzegovina
-    BW -> Botswana
-    BV -> BouvetIsland
-    BR -> Brazil
-    IO -> BritishIndianOceanTerritory
-    BN -> BruneiDarussalam
-    BG -> Bulgaria
-    BF -> BurkinaFaso
-    BI -> Burundi
-    CV -> CaboVerde
-    KH -> Cambodia
-    CM -> Cameroon
-    CA -> Canada
-    KY -> CaymanIslands
-    CF -> CentralAfricanRepublic
-    TD -> Chad
-    CL -> Chile
-    CN -> China
-    CX -> ChristmasIsland
-    CC -> CocosIslands
-    CO -> Colombia
-    KM -> Comoros
-    CG -> Congo
-    CD -> CongoDemocraticRepublic
-    CK -> CookIslands
-    CR -> CostaRica
-    CI -> CoteDIvoire
-    HR -> Croatia
-    CU -> Cuba
-    CW -> Curacao
-    CY -> Cyprus
-    CZ -> Czechia
-    DK -> Denmark
-    DJ -> Djibouti
-    DM -> Dominica
-    DO -> DominicanRepublic
-    EC -> Ecuador
-    EG -> Egypt
-    SV -> ElSalvador
-    GQ -> EquatorialGuinea
-    ER -> Eritrea
-    EE -> Estonia
-    SZ -> Eswatini
-    ET -> Ethiopia
-    FK -> FalklandIslands
-    FO -> FaroeIslands
-    FJ -> Fiji
-    FI -> Finland
-    FR -> France
-    GF -> FrenchGuiana
-    PF -> FrenchPolynesia
-    TF -> FrenchSouthernTerritories
-    GA -> Gabon
-    GM -> Gambia
-    GE -> Georgia
-    DE -> Germany
-    GH -> Ghana
-    GI -> Gibraltar
-    GR -> Greece
-    GL -> Greenland
-    GD -> Grenada
-    GP -> Guadeloupe
-    GU -> Guam
-    GT -> Guatemala
-    GG -> Guernsey
-    GN -> Guinea
-    GW -> GuineaBissau
-    GY -> Guyana
-    HT -> Haiti
-    HM -> HeardIslandAndMcDonaldIslands
-    VA -> HolySee
-    HN -> Honduras
-    HK -> HongKong
-    HU -> Hungary
-    IS -> Iceland
-    IN -> India
-    ID -> Indonesia
-    IR -> Iran
-    IQ -> Iraq
-    IE -> Ireland
-    IM -> IsleOfMan
-    IL -> Israel
-    IT -> Italy
-    JM -> Jamaica
-    JP -> Japan
-    JE -> Jersey
-    JO -> Jordan
-    KZ -> Kazakhstan
-    KE -> Kenya
-    KI -> Kiribati
-    KP -> KoreaDemocraticPeoplesRepublic
-    KR -> KoreaRepublic
-    KW -> Kuwait
-    KG -> Kyrgyzstan
-    LA -> LaoPeoplesDemocraticRepublic
-    LV -> Latvia
-    LB -> Lebanon
-    LS -> Lesotho
-    LR -> Liberia
-    LY -> Libya
-    LI -> Liechtenstein
-    LT -> Lithuania
-    LU -> Luxembourg
-    MO -> Macao
-    MG -> Madagascar
-    MW -> Malawi
-    MY -> Malaysia
-    MV -> Maldives
-    ML -> Mali
-    MT -> Malta
-    MH -> MarshallIslands
-    MQ -> Martinique
-    MR -> Mauritania
-    MU -> Mauritius
-    YT -> Mayotte
-    MX -> Mexico
-    FM -> Micronesia
-    MD -> Moldova
-    MC -> Monaco
-    MN -> Mongolia
-    ME -> Montenegro
-    MS -> Montserrat
-    MA -> Morocco
-    MZ -> Mozambique
-    MM -> Myanmar
-    NA -> Namibia
-    NR -> Nauru
-    NP -> Nepal
-    NL -> Netherlands
-    NC -> NewCaledonia
-    NZ -> NewZealand
-    NI -> Nicaragua
-    NE -> Niger
-    NG -> Nigeria
-    NU -> Niue
-    NF -> NorfolkIsland
-    MK -> NorthMacedonia
-    MP -> NorthernMarianaIslands
-    NO -> Norway
-    OM -> Oman
-    PK -> Pakistan
-    PW -> Palau
-    PS -> Palestine
-    PA -> Panama
-    PG -> PapuaNewGuinea
-    PY -> Paraguay
-    PE -> Peru
-    PH -> Philippines
-    PN -> Pitcairn
-    PL -> Poland
-    PT -> Portugal
-    PR -> PuertoRico
-    QA -> Qatar
-    RE -> Reunion
-    RO -> Romania
-    RU -> RussianFederation
-    RW -> Rwanda
-    BL -> SaintBarthelemy
-    SH -> SaintHelenaAscensionTristanDaCunha
-    KN -> SaintKittsAndNevis
-    LC -> SaintLucia
-    MF -> SaintMartinFrenchPart
-    PM -> SaintPierreAndMiquelon
-    VC -> SaintVincentAndTheGrenadines
-    WS -> Samoa
-    SM -> SanMarino
-    ST -> SaoTomeAndPrincipe
-    SA -> SaudiArabia
-    SN -> Senegal
-    RS -> Serbia
-    SC -> Seychelles
-    SL -> SierraLeone
-    SG -> Singapore
-    SX -> SintMaartenDutchPart
-    SK -> Slovakia
-    SI -> Slovenia
-    SB -> SolomonIslands
-    SO -> Somalia
-    ZA -> SouthAfrica
-    GS -> SouthGeorgiaSouthSandwichIslands
-    SS -> SouthSudan
-    ES -> Spain
-    LK -> SriLanka
-    SD -> Sudan
-    SR -> Suriname
-    SJ -> SvalbardJanMayen
-    SE -> Sweden
-    CH -> Switzerland
-    SY -> SyrianArabRepublic
-    TW -> TaiwanProvinceOfChina
-    TJ -> Tajikistan
-    TZ -> Tanzania
-    TH -> Thailand
-    TL -> TimorLeste
-    TG -> Togo
-    TK -> Tokelau
-    TO -> Tonga
-    TT -> TrinidadAndTobago
-    TN -> Tunisia
-    TR -> Turkey
-    TM -> Turkmenistan
-    TC -> TurksAndCaicosIslands
-    TV -> Tuvalu
-    UG -> Uganda
-    UA -> Ukraine
-    AE -> UnitedArabEmirates
-    GB -> UnitedKingdom
-    US -> UnitedStatesOfAmerica
-    UM -> UnitedStatesOutlyingIslands
-    UY -> Uruguay
-    UZ -> Uzbekistan
-    VU -> Vanuatu
-    VE -> Venezuela
-    VN -> VietNam
-    VG -> VirginIslandsBritish
-    VI -> VirginIslandsUS
-    WF -> WallisAndFutuna
-    EH -> WesternSahara
-    YE -> Yemen
-    ZM -> Zambia
-    ZW -> Zimbabwe
+    Af -> Afghanistan
+    Ax -> AlandIslands
+    Al -> Albania
+    Dz -> Algeria
+    As -> AmericanSamoa
+    Ad -> Andorra
+    Ao -> Angola
+    Ai -> Anguilla
+    Aq -> Antarctica
+    Ag -> AntiguaAndBarbuda
+    Ar -> Argentina
+    Am -> Armenia
+    Aw -> Aruba
+    Au -> Australia
+    At -> Austria
+    Az -> Azerbaijan
+    Bs -> Bahamas
+    Bh -> Bahrain
+    Bd -> Bangladesh
+    Bb -> Barbados
+    By -> Belarus
+    Be -> Belgium
+    Bz -> Belize
+    Bj -> Benin
+    Bm -> Bermuda
+    Bt -> Bhutan
+    Bo -> Bolivia
+    Bq -> BonaireSintEustatiusAndSaba
+    Ba -> BosniaAndHerzegovina
+    Bw -> Botswana
+    Bv -> BouvetIsland
+    Br -> Brazil
+    Io -> BritishIndianOceanTerritory
+    Bn -> BruneiDarussalam
+    Bg -> Bulgaria
+    Bf -> BurkinaFaso
+    Bi -> Burundi
+    Cv -> CaboVerde
+    Kh -> Cambodia
+    Cm -> Cameroon
+    Ca -> Canada
+    Ky -> CaymanIslands
+    Cf -> CentralAfricanRepublic
+    Td -> Chad
+    Cl -> Chile
+    Cn -> China
+    Cx -> ChristmasIsland
+    Cc -> CocosIslands
+    Co -> Colombia
+    Km -> Comoros
+    Cg -> Congo
+    Cd -> CongoDemocraticRepublic
+    Ck -> CookIslands
+    Cr -> CostaRica
+    Ci -> CoteDIvoire
+    Hr -> Croatia
+    Cu -> Cuba
+    Cw -> Curacao
+    Cy -> Cyprus
+    Cz -> Czechia
+    Dk -> Denmark
+    Dj -> Djibouti
+    Dm -> Dominica
+    Do -> DominicanRepublic
+    Ec -> Ecuador
+    Eg -> Egypt
+    Sv -> ElSalvador
+    Gq -> EquatorialGuinea
+    Er -> Eritrea
+    Ee -> Estonia
+    Sz -> Eswatini
+    Et -> Ethiopia
+    Fk -> FalklandIslands
+    Fo -> FaroeIslands
+    Fj -> Fiji
+    Fi -> Finland
+    Fr -> France
+    Gf -> FrenchGuiana
+    Pf -> FrenchPolynesia
+    Tf -> FrenchSouthernTerritories
+    Ga -> Gabon
+    Gm -> Gambia
+    Ge -> Georgia
+    De -> Germany
+    Gh -> Ghana
+    Gi -> Gibraltar
+    Gr -> Greece
+    Gl -> Greenland
+    Gd -> Grenada
+    Gp -> Guadeloupe
+    Gu -> Guam
+    Gt -> Guatemala
+    Gg -> Guernsey
+    Gn -> Guinea
+    Gw -> GuineaBissau
+    Gy -> Guyana
+    Ht -> Haiti
+    Hm -> HeardIslandAndMcDonaldIslands
+    Va -> HolySee
+    Hn -> Honduras
+    Hk -> HongKong
+    Hu -> Hungary
+    Is -> Iceland
+    In -> India
+    Id -> Indonesia
+    Ir -> Iran
+    Iq -> Iraq
+    Ie -> Ireland
+    Im -> IsleOfMan
+    Il -> Israel
+    It -> Italy
+    Jm -> Jamaica
+    Jp -> Japan
+    Je -> Jersey
+    Jo -> Jordan
+    Kz -> Kazakhstan
+    Ke -> Kenya
+    Ki -> Kiribati
+    Kp -> KoreaDemocraticPeoplesRepublic
+    Kr -> KoreaRepublic
+    Kw -> Kuwait
+    Kg -> Kyrgyzstan
+    La -> LaoPeoplesDemocraticRepublic
+    Lv -> Latvia
+    Lb -> Lebanon
+    Ls -> Lesotho
+    Lr -> Liberia
+    Ly -> Libya
+    Li -> Liechtenstein
+    Lt -> Lithuania
+    Lu -> Luxembourg
+    Mo -> Macao
+    Mg -> Madagascar
+    Mw -> Malawi
+    My -> Malaysia
+    Mv -> Maldives
+    Ml -> Mali
+    Mt -> Malta
+    Mh -> MarshallIslands
+    Mq -> Martinique
+    Mr -> Mauritania
+    Mu -> Mauritius
+    Yt -> Mayotte
+    Mx -> Mexico
+    Fm -> Micronesia
+    Md -> Moldova
+    Mc -> Monaco
+    Mn -> Mongolia
+    Me -> Montenegro
+    Ms -> Montserrat
+    Ma -> Morocco
+    Mz -> Mozambique
+    Mm -> Myanmar
+    Na -> Namibia
+    Nr -> Nauru
+    Np -> Nepal
+    Nl -> Netherlands
+    Nc -> NewCaledonia
+    Nz -> NewZealand
+    Ni -> Nicaragua
+    Ne -> Niger
+    Ng -> Nigeria
+    Nu -> Niue
+    Nf -> NorfolkIsland
+    Mk -> NorthMacedonia
+    Mp -> NorthernMarianaIslands
+    No -> Norway
+    Om -> Oman
+    Pk -> Pakistan
+    Pw -> Palau
+    Ps -> Palestine
+    Pa -> Panama
+    Pg -> PapuaNewGuinea
+    Py -> Paraguay
+    Pe -> Peru
+    Ph -> Philippines
+    Pn -> Pitcairn
+    Pl -> Poland
+    Pt -> Portugal
+    Pr -> PuertoRico
+    Qa -> Qatar
+    Re -> Reunion
+    Ro -> Romania
+    Ru -> RussianFederation
+    Rw -> Rwanda
+    Bl -> SaintBarthelemy
+    Sh -> SaintHelenaAscensionTristanDaCunha
+    Kn -> SaintKittsAndNevis
+    Lc -> SaintLucia
+    Mf -> SaintMartinFrenchPart
+    Pm -> SaintPierreAndMiquelon
+    Vc -> SaintVincentAndTheGrenadines
+    Ws -> Samoa
+    Sm -> SanMarino
+    St -> SaoTomeAndPrincipe
+    Sa -> SaudiArabia
+    Sn -> Senegal
+    Rs -> Serbia
+    Sc -> Seychelles
+    Sl -> SierraLeone
+    Sg -> Singapore
+    Sx -> SintMaartenDutchPart
+    Sk -> Slovakia
+    Si -> Slovenia
+    Sb -> SolomonIslands
+    So -> Somalia
+    Za -> SouthAfrica
+    Gs -> SouthGeorgiaSouthSandwichIslands
+    Ss -> SouthSudan
+    Es -> Spain
+    Lk -> SriLanka
+    Sd -> Sudan
+    Sr -> Suriname
+    Sj -> SvalbardJanMayen
+    Se -> Sweden
+    Ch -> Switzerland
+    Sy -> SyrianArabRepublic
+    Tw -> TaiwanProvinceOfChina
+    Tj -> Tajikistan
+    Tz -> Tanzania
+    Th -> Thailand
+    Tl -> TimorLeste
+    Tg -> Togo
+    Tk -> Tokelau
+    To -> Tonga
+    Tt -> TrinidadAndTobago
+    Tn -> Tunisia
+    Tr -> Turkey
+    Tm -> Turkmenistan
+    Tc -> TurksAndCaicosIslands
+    Tv -> Tuvalu
+    Ug -> Uganda
+    Ua -> Ukraine
+    Ae -> UnitedArabEmirates
+    Gb -> UnitedKingdom
+    Us -> UnitedStatesOfAmerica
+    Um -> UnitedStatesOutlyingIslands
+    Uy -> Uruguay
+    Uz -> Uzbekistan
+    Vu -> Vanuatu
+    Ve -> Venezuela
+    Vn -> VietNam
+    Vg -> VirginIslandsBritish
+    Vi -> VirginIslandsUS
+    Wf -> WallisAndFutuna
+    Eh -> WesternSahara
+    Ye -> Yemen
+    Zm -> Zambia
+    Zw -> Zimbabwe
   }
 }
 
@@ -1797,255 +1797,255 @@ pub fn from_alpha_2_code(code a: Alpha2Code) -> Country {
 /// source https://www.iso.org/obp/ui/#search/code/
 pub fn alpha_2_code_to_string(code a: Alpha2Code) -> String {
   case a {
-    AF -> "AF"
-    AX -> "AX"
-    AL -> "AL"
-    DZ -> "DZ"
-    AS -> "AS"
-    AD -> "AD"
-    AO -> "AO"
-    AI -> "AI"
-    AQ -> "AQ"
-    AG -> "AG"
-    AR -> "AR"
-    AM -> "AM"
-    AW -> "AW"
-    AU -> "AU"
-    AT -> "AT"
-    AZ -> "AZ"
-    BS -> "BS"
-    BH -> "BH"
-    BD -> "BD"
-    BB -> "BB"
-    BY -> "BY"
-    BE -> "BE"
-    BZ -> "BZ"
-    BJ -> "BJ"
-    BM -> "BM"
-    BT -> "BT"
-    BO -> "BO"
-    BQ -> "BQ"
-    BA -> "BA"
-    BW -> "BW"
-    BV -> "BV"
-    BR -> "BR"
-    IO -> "IO"
-    BN -> "BN"
-    BG -> "BG"
-    BF -> "BF"
-    BI -> "BI"
-    CV -> "CV"
-    KH -> "KH"
-    CM -> "CM"
-    CA -> "CA"
-    KY -> "KY"
-    CF -> "CF"
-    TD -> "TD"
-    CL -> "CL"
-    CN -> "CN"
-    CX -> "CX"
-    CC -> "CC"
-    CO -> "CO"
-    KM -> "KM"
-    CG -> "CG"
-    CD -> "CD"
-    CK -> "CK"
-    CR -> "CR"
-    CI -> "CI"
-    HR -> "HR"
-    CU -> "CU"
-    CW -> "CW"
-    CY -> "CY"
-    CZ -> "CZ"
-    DK -> "DK"
-    DJ -> "DJ"
-    DM -> "DM"
-    DO -> "DO"
-    EC -> "EC"
-    EG -> "EG"
-    SV -> "SV"
-    GQ -> "GQ"
-    ER -> "ER"
-    EE -> "EE"
-    SZ -> "SZ"
-    ET -> "ET"
-    FK -> "FK"
-    FO -> "FO"
-    FJ -> "FJ"
-    FI -> "FI"
-    FR -> "FR"
-    GF -> "GF"
-    PF -> "PF"
-    TF -> "TF"
-    GA -> "GA"
-    GM -> "GM"
-    GE -> "GE"
-    DE -> "DE"
-    GH -> "GH"
-    GI -> "GI"
-    GR -> "GR"
-    GL -> "GL"
-    GD -> "GD"
-    GP -> "GP"
-    GU -> "GU"
-    GT -> "GT"
-    GG -> "GG"
-    GN -> "GN"
-    GW -> "GW"
-    GY -> "GY"
-    HT -> "HT"
-    HM -> "HM"
-    VA -> "VA"
-    HN -> "HN"
-    HK -> "HK"
-    HU -> "HU"
-    IS -> "IS"
-    IN -> "IN"
-    ID -> "ID"
-    IR -> "IR"
-    IQ -> "IQ"
-    IE -> "IE"
-    IM -> "IM"
-    IL -> "IL"
-    IT -> "IT"
-    JM -> "JM"
-    JP -> "JP"
-    JE -> "JE"
-    JO -> "JO"
-    KZ -> "KZ"
-    KE -> "KE"
-    KI -> "KI"
-    KP -> "KP"
-    KR -> "KR"
-    KW -> "KW"
-    KG -> "KG"
-    LA -> "LA"
-    LV -> "LV"
-    LB -> "LB"
-    LS -> "LS"
-    LR -> "LR"
-    LY -> "LY"
-    LI -> "LI"
-    LT -> "LT"
-    LU -> "LU"
-    MO -> "MO"
-    MG -> "MG"
-    MW -> "MW"
-    MY -> "MY"
-    MV -> "MV"
-    ML -> "ML"
-    MT -> "MT"
-    MH -> "MH"
-    MQ -> "MQ"
-    MR -> "MR"
-    MU -> "MU"
-    YT -> "YT"
-    MX -> "MX"
-    FM -> "FM"
-    MD -> "MD"
-    MC -> "MC"
-    MN -> "MN"
-    ME -> "ME"
-    MS -> "MS"
-    MA -> "MA"
-    MZ -> "MZ"
-    MM -> "MM"
-    NA -> "NA"
-    NR -> "NR"
-    NP -> "NP"
-    NL -> "NL"
-    NC -> "NC"
-    NZ -> "NZ"
-    NI -> "NI"
-    NE -> "NE"
-    NG -> "NG"
-    NU -> "NU"
-    NF -> "NF"
-    MK -> "MK"
-    MP -> "MP"
-    NO -> "NO"
-    OM -> "OM"
-    PK -> "PK"
-    PW -> "PW"
-    PS -> "PS"
-    PA -> "PA"
-    PG -> "PG"
-    PY -> "PY"
-    PE -> "PE"
-    PH -> "PH"
-    PN -> "PN"
-    PL -> "PL"
-    PT -> "PT"
-    PR -> "PR"
-    QA -> "QA"
-    RE -> "RE"
-    RO -> "RO"
-    RU -> "RU"
-    RW -> "RW"
-    BL -> "BL"
-    SH -> "SH"
-    KN -> "KN"
-    LC -> "LC"
-    MF -> "MF"
-    PM -> "PM"
-    VC -> "VC"
-    WS -> "WS"
-    SM -> "SM"
-    ST -> "ST"
-    SA -> "SA"
-    SN -> "SN"
-    RS -> "RS"
-    SC -> "SC"
-    SL -> "SL"
-    SG -> "SG"
-    SX -> "SX"
-    SK -> "SK"
-    SI -> "SI"
-    SB -> "SB"
-    SO -> "SO"
-    ZA -> "ZA"
-    GS -> "GS"
-    SS -> "SS"
-    ES -> "ES"
-    LK -> "LK"
-    SD -> "SD"
-    SR -> "SR"
-    SJ -> "SJ"
-    SE -> "SE"
-    CH -> "CH"
-    SY -> "SY"
-    TW -> "TW"
-    TJ -> "TJ"
-    TZ -> "TZ"
-    TH -> "TH"
-    TL -> "TL"
-    TG -> "TG"
-    TK -> "TK"
-    TO -> "TO"
-    TT -> "TT"
-    TN -> "TN"
-    TR -> "TR"
-    TM -> "TM"
-    TC -> "TC"
-    TV -> "TV"
-    UG -> "UG"
-    UA -> "UA"
-    AE -> "AE"
-    GB -> "GB"
-    UM -> "UM"
-    US -> "US"
-    UY -> "UY"
-    UZ -> "UZ"
-    VU -> "VU"
-    VE -> "VE"
-    VN -> "VN"
-    VG -> "VG"
-    VI -> "VI"
-    WF -> "WF"
-    EH -> "EH"
-    YE -> "YE"
-    ZM -> "ZM"
-    ZW -> "ZW"
+    Af -> "AF"
+    Ax -> "AX"
+    Al -> "AL"
+    Dz -> "DZ"
+    As -> "AS"
+    Ad -> "AD"
+    Ao -> "AO"
+    Ai -> "AI"
+    Aq -> "AQ"
+    Ag -> "AG"
+    Ar -> "AR"
+    Am -> "AM"
+    Aw -> "AW"
+    Au -> "AU"
+    At -> "AT"
+    Az -> "AZ"
+    Bs -> "BS"
+    Bh -> "BH"
+    Bd -> "BD"
+    Bb -> "BB"
+    By -> "BY"
+    Be -> "BE"
+    Bz -> "BZ"
+    Bj -> "BJ"
+    Bm -> "BM"
+    Bt -> "BT"
+    Bo -> "BO"
+    Bq -> "BQ"
+    Ba -> "BA"
+    Bw -> "BW"
+    Bv -> "BV"
+    Br -> "BR"
+    Io -> "IO"
+    Bn -> "BN"
+    Bg -> "BG"
+    Bf -> "BF"
+    Bi -> "BI"
+    Cv -> "CV"
+    Kh -> "KH"
+    Cm -> "CM"
+    Ca -> "CA"
+    Ky -> "KY"
+    Cf -> "CF"
+    Td -> "TD"
+    Cl -> "CL"
+    Cn -> "CN"
+    Cx -> "CX"
+    Cc -> "CC"
+    Co -> "CO"
+    Km -> "KM"
+    Cg -> "CG"
+    Cd -> "CD"
+    Ck -> "CK"
+    Cr -> "CR"
+    Ci -> "CI"
+    Hr -> "HR"
+    Cu -> "CU"
+    Cw -> "CW"
+    Cy -> "CY"
+    Cz -> "CZ"
+    Dk -> "DK"
+    Dj -> "DJ"
+    Dm -> "DM"
+    Do -> "DO"
+    Ec -> "EC"
+    Eg -> "EG"
+    Sv -> "SV"
+    Gq -> "GQ"
+    Er -> "ER"
+    Ee -> "EE"
+    Sz -> "SZ"
+    Et -> "ET"
+    Fk -> "FK"
+    Fo -> "FO"
+    Fj -> "FJ"
+    Fi -> "FI"
+    Fr -> "FR"
+    Gf -> "GF"
+    Pf -> "PF"
+    Tf -> "TF"
+    Ga -> "GA"
+    Gm -> "GM"
+    Ge -> "GE"
+    De -> "DE"
+    Gh -> "GH"
+    Gi -> "GI"
+    Gr -> "GR"
+    Gl -> "GL"
+    Gd -> "GD"
+    Gp -> "GP"
+    Gu -> "GU"
+    Gt -> "GT"
+    Gg -> "GG"
+    Gn -> "GN"
+    Gw -> "GW"
+    Gy -> "GY"
+    Ht -> "HT"
+    Hm -> "HM"
+    Va -> "VA"
+    Hn -> "HN"
+    Hk -> "HK"
+    Hu -> "HU"
+    Is -> "IS"
+    In -> "IN"
+    Id -> "ID"
+    Ir -> "IR"
+    Iq -> "IQ"
+    Ie -> "IE"
+    Im -> "IM"
+    Il -> "IL"
+    It -> "IT"
+    Jm -> "JM"
+    Jp -> "JP"
+    Je -> "JE"
+    Jo -> "JO"
+    Kz -> "KZ"
+    Ke -> "KE"
+    Ki -> "KI"
+    Kp -> "KP"
+    Kr -> "KR"
+    Kw -> "KW"
+    Kg -> "KG"
+    La -> "LA"
+    Lv -> "LV"
+    Lb -> "LB"
+    Ls -> "LS"
+    Lr -> "LR"
+    Ly -> "LY"
+    Li -> "LI"
+    Lt -> "LT"
+    Lu -> "LU"
+    Mo -> "MO"
+    Mg -> "MG"
+    Mw -> "MW"
+    My -> "MY"
+    Mv -> "MV"
+    Ml -> "ML"
+    Mt -> "MT"
+    Mh -> "MH"
+    Mq -> "MQ"
+    Mr -> "MR"
+    Mu -> "MU"
+    Yt -> "YT"
+    Mx -> "MX"
+    Fm -> "FM"
+    Md -> "MD"
+    Mc -> "MC"
+    Mn -> "MN"
+    Me -> "ME"
+    Ms -> "MS"
+    Ma -> "MA"
+    Mz -> "MZ"
+    Mm -> "MM"
+    Na -> "NA"
+    Nr -> "NR"
+    Np -> "NP"
+    Nl -> "NL"
+    Nc -> "NC"
+    Nz -> "NZ"
+    Ni -> "NI"
+    Ne -> "NE"
+    Ng -> "NG"
+    Nu -> "NU"
+    Nf -> "NF"
+    Mk -> "MK"
+    Mp -> "MP"
+    No -> "NO"
+    Om -> "OM"
+    Pk -> "PK"
+    Pw -> "PW"
+    Ps -> "PS"
+    Pa -> "PA"
+    Pg -> "PG"
+    Py -> "PY"
+    Pe -> "PE"
+    Ph -> "PH"
+    Pn -> "PN"
+    Pl -> "PL"
+    Pt -> "PT"
+    Pr -> "PR"
+    Qa -> "QA"
+    Re -> "RE"
+    Ro -> "RO"
+    Ru -> "RU"
+    Rw -> "RW"
+    Bl -> "BL"
+    Sh -> "SH"
+    Kn -> "KN"
+    Lc -> "LC"
+    Mf -> "MF"
+    Pm -> "PM"
+    Vc -> "VC"
+    Ws -> "WS"
+    Sm -> "SM"
+    St -> "ST"
+    Sa -> "SA"
+    Sn -> "SN"
+    Rs -> "RS"
+    Sc -> "SC"
+    Sl -> "SL"
+    Sg -> "SG"
+    Sx -> "SX"
+    Sk -> "SK"
+    Si -> "SI"
+    Sb -> "SB"
+    So -> "SO"
+    Za -> "ZA"
+    Gs -> "GS"
+    Ss -> "SS"
+    Es -> "ES"
+    Lk -> "LK"
+    Sd -> "SD"
+    Sr -> "SR"
+    Sj -> "SJ"
+    Se -> "SE"
+    Ch -> "CH"
+    Sy -> "SY"
+    Tw -> "TW"
+    Tj -> "TJ"
+    Tz -> "TZ"
+    Th -> "TH"
+    Tl -> "TL"
+    Tg -> "TG"
+    Tk -> "TK"
+    To -> "TO"
+    Tt -> "TT"
+    Tn -> "TN"
+    Tr -> "TR"
+    Tm -> "TM"
+    Tc -> "TC"
+    Tv -> "TV"
+    Ug -> "UG"
+    Ua -> "UA"
+    Ae -> "AE"
+    Gb -> "GB"
+    Um -> "UM"
+    Us -> "US"
+    Uy -> "UY"
+    Uz -> "UZ"
+    Vu -> "VU"
+    Ve -> "VE"
+    Vn -> "VN"
+    Vg -> "VG"
+    Vi -> "VI"
+    Wf -> "WF"
+    Eh -> "EH"
+    Ye -> "YE"
+    Zm -> "ZM"
+    Zw -> "ZW"
   }
 }
 
@@ -2055,255 +2055,255 @@ pub fn alpha_2_code_from_string(
   code a: String,
 ) -> Result(Alpha2Code, CountryError) {
   case a {
-    "AF" -> Ok(AF)
-    "AX" -> Ok(AX)
-    "AL" -> Ok(AL)
-    "DZ" -> Ok(DZ)
-    "AS" -> Ok(AS)
-    "AD" -> Ok(AD)
-    "AO" -> Ok(AO)
-    "AI" -> Ok(AI)
-    "AQ" -> Ok(AQ)
-    "AG" -> Ok(AG)
-    "AR" -> Ok(AR)
-    "AM" -> Ok(AM)
-    "AW" -> Ok(AW)
-    "AU" -> Ok(AU)
-    "AT" -> Ok(AT)
-    "AZ" -> Ok(AZ)
-    "BS" -> Ok(BS)
-    "BH" -> Ok(BH)
-    "BD" -> Ok(BD)
-    "BB" -> Ok(BB)
-    "BY" -> Ok(BY)
-    "BE" -> Ok(BE)
-    "BZ" -> Ok(BZ)
-    "BJ" -> Ok(BJ)
-    "BM" -> Ok(BM)
-    "BT" -> Ok(BT)
-    "BO" -> Ok(BO)
-    "BQ" -> Ok(BQ)
-    "BA" -> Ok(BA)
-    "BW" -> Ok(BW)
-    "BV" -> Ok(BV)
-    "BR" -> Ok(BR)
-    "IO" -> Ok(IO)
-    "BN" -> Ok(BN)
-    "BG" -> Ok(BG)
-    "BF" -> Ok(BF)
-    "BI" -> Ok(BI)
-    "CV" -> Ok(CV)
-    "KH" -> Ok(KH)
-    "CM" -> Ok(CM)
-    "CA" -> Ok(CA)
-    "KY" -> Ok(KY)
-    "CF" -> Ok(CF)
-    "TD" -> Ok(TD)
-    "CL" -> Ok(CL)
-    "CN" -> Ok(CN)
-    "CX" -> Ok(CX)
-    "CC" -> Ok(CC)
-    "CO" -> Ok(CO)
-    "KM" -> Ok(KM)
-    "CG" -> Ok(CG)
-    "CD" -> Ok(CD)
-    "CK" -> Ok(CK)
-    "CR" -> Ok(CR)
-    "CI" -> Ok(CI)
-    "HR" -> Ok(HR)
-    "CU" -> Ok(CU)
-    "CW" -> Ok(CW)
-    "CY" -> Ok(CY)
-    "CZ" -> Ok(CZ)
-    "DK" -> Ok(DK)
-    "DJ" -> Ok(DJ)
-    "DM" -> Ok(DM)
-    "DO" -> Ok(DO)
-    "EC" -> Ok(EC)
-    "EG" -> Ok(EG)
-    "SV" -> Ok(SV)
-    "GQ" -> Ok(GQ)
-    "ER" -> Ok(ER)
-    "EE" -> Ok(EE)
-    "SZ" -> Ok(SZ)
-    "ET" -> Ok(ET)
-    "FK" -> Ok(FK)
-    "FO" -> Ok(FO)
-    "FJ" -> Ok(FJ)
-    "FI" -> Ok(FI)
-    "FR" -> Ok(FR)
-    "GF" -> Ok(GF)
-    "PF" -> Ok(PF)
-    "TF" -> Ok(TF)
-    "GA" -> Ok(GA)
-    "GM" -> Ok(GM)
-    "GE" -> Ok(GE)
-    "DE" -> Ok(DE)
-    "GH" -> Ok(GH)
-    "GI" -> Ok(GI)
-    "GR" -> Ok(GR)
-    "GL" -> Ok(GL)
-    "GD" -> Ok(GD)
-    "GP" -> Ok(GP)
-    "GU" -> Ok(GU)
-    "GT" -> Ok(GT)
-    "GG" -> Ok(GG)
-    "GN" -> Ok(GN)
-    "GW" -> Ok(GW)
-    "GY" -> Ok(GY)
-    "HT" -> Ok(HT)
-    "HM" -> Ok(HM)
-    "VA" -> Ok(VA)
-    "HN" -> Ok(HN)
-    "HK" -> Ok(HK)
-    "HU" -> Ok(HU)
-    "IS" -> Ok(IS)
-    "IN" -> Ok(IN)
-    "ID" -> Ok(ID)
-    "IR" -> Ok(IR)
-    "IQ" -> Ok(IQ)
-    "IE" -> Ok(IE)
-    "IM" -> Ok(IM)
-    "IL" -> Ok(IL)
-    "IT" -> Ok(IT)
-    "JM" -> Ok(JM)
-    "JP" -> Ok(JP)
-    "JE" -> Ok(JE)
-    "JO" -> Ok(JO)
-    "KZ" -> Ok(KZ)
-    "KE" -> Ok(KE)
-    "KI" -> Ok(KI)
-    "KP" -> Ok(KP)
-    "KR" -> Ok(KR)
-    "KW" -> Ok(KW)
-    "KG" -> Ok(KG)
-    "LA" -> Ok(LA)
-    "LV" -> Ok(LV)
-    "LB" -> Ok(LB)
-    "LS" -> Ok(LS)
-    "LR" -> Ok(LR)
-    "LY" -> Ok(LY)
-    "LI" -> Ok(LI)
-    "LT" -> Ok(LT)
-    "LU" -> Ok(LU)
-    "MO" -> Ok(MO)
-    "MG" -> Ok(MG)
-    "MW" -> Ok(MW)
-    "MY" -> Ok(MY)
-    "MV" -> Ok(MV)
-    "ML" -> Ok(ML)
-    "MT" -> Ok(MT)
-    "MH" -> Ok(MH)
-    "MQ" -> Ok(MQ)
-    "MR" -> Ok(MR)
-    "MU" -> Ok(MU)
-    "YT" -> Ok(YT)
-    "MX" -> Ok(MX)
-    "FM" -> Ok(FM)
-    "MD" -> Ok(MD)
-    "MC" -> Ok(MC)
-    "MN" -> Ok(MN)
-    "ME" -> Ok(ME)
-    "MS" -> Ok(MS)
-    "MA" -> Ok(MA)
-    "MZ" -> Ok(MZ)
-    "MM" -> Ok(MM)
-    "NA" -> Ok(NA)
-    "NR" -> Ok(NR)
-    "NP" -> Ok(NP)
-    "NL" -> Ok(NL)
-    "NC" -> Ok(NC)
-    "NZ" -> Ok(NZ)
-    "NI" -> Ok(NI)
-    "NE" -> Ok(NE)
-    "NG" -> Ok(NG)
-    "NU" -> Ok(NU)
-    "NF" -> Ok(NF)
-    "MK" -> Ok(MK)
-    "MP" -> Ok(MP)
-    "NO" -> Ok(NO)
-    "OM" -> Ok(OM)
-    "PK" -> Ok(PK)
-    "PW" -> Ok(PW)
-    "PS" -> Ok(PS)
-    "PA" -> Ok(PA)
-    "PG" -> Ok(PG)
-    "PY" -> Ok(PY)
-    "PE" -> Ok(PE)
-    "PH" -> Ok(PH)
-    "PN" -> Ok(PN)
-    "PL" -> Ok(PL)
-    "PT" -> Ok(PT)
-    "PR" -> Ok(PR)
-    "QA" -> Ok(QA)
-    "RE" -> Ok(RE)
-    "RO" -> Ok(RO)
-    "RU" -> Ok(RU)
-    "RW" -> Ok(RW)
-    "BL" -> Ok(BL)
-    "SH" -> Ok(SH)
-    "KN" -> Ok(KN)
-    "LC" -> Ok(LC)
-    "MF" -> Ok(MF)
-    "PM" -> Ok(PM)
-    "VC" -> Ok(VC)
-    "WS" -> Ok(WS)
-    "SM" -> Ok(SM)
-    "ST" -> Ok(ST)
-    "SA" -> Ok(SA)
-    "SN" -> Ok(SN)
-    "RS" -> Ok(RS)
-    "SC" -> Ok(SC)
-    "SL" -> Ok(SL)
-    "SG" -> Ok(SG)
-    "SX" -> Ok(SX)
-    "SK" -> Ok(SK)
-    "SI" -> Ok(SI)
-    "SB" -> Ok(SB)
-    "SO" -> Ok(SO)
-    "ZA" -> Ok(ZA)
-    "GS" -> Ok(GS)
-    "SS" -> Ok(SS)
-    "ES" -> Ok(ES)
-    "LK" -> Ok(LK)
-    "SD" -> Ok(SD)
-    "SR" -> Ok(SR)
-    "SJ" -> Ok(SJ)
-    "SE" -> Ok(SE)
-    "CH" -> Ok(CH)
-    "SY" -> Ok(SY)
-    "TW" -> Ok(TW)
-    "TJ" -> Ok(TJ)
-    "TZ" -> Ok(TZ)
-    "TH" -> Ok(TH)
-    "TL" -> Ok(TL)
-    "TG" -> Ok(TG)
-    "TK" -> Ok(TK)
-    "TO" -> Ok(TO)
-    "TT" -> Ok(TT)
-    "TN" -> Ok(TN)
-    "TR" -> Ok(TR)
-    "TM" -> Ok(TM)
-    "TC" -> Ok(TC)
-    "TV" -> Ok(TV)
-    "UG" -> Ok(UG)
-    "UA" -> Ok(UA)
-    "AE" -> Ok(AE)
-    "GB" -> Ok(GB)
-    "UM" -> Ok(UM)
-    "US" -> Ok(US)
-    "UY" -> Ok(UY)
-    "UZ" -> Ok(UZ)
-    "VU" -> Ok(VU)
-    "VE" -> Ok(VE)
-    "VN" -> Ok(VN)
-    "VG" -> Ok(VG)
-    "VI" -> Ok(VI)
-    "WF" -> Ok(WF)
-    "EH" -> Ok(EH)
-    "YE" -> Ok(YE)
-    "ZM" -> Ok(ZM)
-    "ZW" -> Ok(ZW)
+    "AF" -> Ok(Af)
+    "AX" -> Ok(Ax)
+    "AL" -> Ok(Al)
+    "DZ" -> Ok(Dz)
+    "AS" -> Ok(As)
+    "AD" -> Ok(Ad)
+    "AO" -> Ok(Ao)
+    "AI" -> Ok(Ai)
+    "AQ" -> Ok(Aq)
+    "AG" -> Ok(Ag)
+    "AR" -> Ok(Ar)
+    "AM" -> Ok(Am)
+    "AW" -> Ok(Aw)
+    "AU" -> Ok(Au)
+    "AT" -> Ok(At)
+    "AZ" -> Ok(Az)
+    "BS" -> Ok(Bs)
+    "BH" -> Ok(Bh)
+    "BD" -> Ok(Bd)
+    "BB" -> Ok(Bb)
+    "BY" -> Ok(By)
+    "BE" -> Ok(Be)
+    "BZ" -> Ok(Bz)
+    "BJ" -> Ok(Bj)
+    "BM" -> Ok(Bm)
+    "BT" -> Ok(Bt)
+    "BO" -> Ok(Bo)
+    "BQ" -> Ok(Bq)
+    "BA" -> Ok(Ba)
+    "BW" -> Ok(Bw)
+    "BV" -> Ok(Bv)
+    "BR" -> Ok(Br)
+    "IO" -> Ok(Io)
+    "BN" -> Ok(Bn)
+    "BG" -> Ok(Bg)
+    "BF" -> Ok(Bf)
+    "BI" -> Ok(Bi)
+    "CV" -> Ok(Cv)
+    "KH" -> Ok(Kh)
+    "CM" -> Ok(Cm)
+    "CA" -> Ok(Ca)
+    "KY" -> Ok(Ky)
+    "CF" -> Ok(Cf)
+    "TD" -> Ok(Td)
+    "CL" -> Ok(Cl)
+    "CN" -> Ok(Cn)
+    "CX" -> Ok(Cx)
+    "CC" -> Ok(Cc)
+    "CO" -> Ok(Co)
+    "KM" -> Ok(Km)
+    "CG" -> Ok(Cg)
+    "CD" -> Ok(Cd)
+    "CK" -> Ok(Ck)
+    "CR" -> Ok(Cr)
+    "CI" -> Ok(Ci)
+    "HR" -> Ok(Hr)
+    "CU" -> Ok(Cu)
+    "CW" -> Ok(Cw)
+    "CY" -> Ok(Cy)
+    "CZ" -> Ok(Cz)
+    "DK" -> Ok(Dk)
+    "DJ" -> Ok(Dj)
+    "DM" -> Ok(Dm)
+    "DO" -> Ok(Do)
+    "EC" -> Ok(Ec)
+    "EG" -> Ok(Eg)
+    "SV" -> Ok(Sv)
+    "GQ" -> Ok(Gq)
+    "ER" -> Ok(Er)
+    "EE" -> Ok(Ee)
+    "SZ" -> Ok(Sz)
+    "ET" -> Ok(Et)
+    "FK" -> Ok(Fk)
+    "FO" -> Ok(Fo)
+    "FJ" -> Ok(Fj)
+    "FI" -> Ok(Fi)
+    "FR" -> Ok(Fr)
+    "GF" -> Ok(Gf)
+    "PF" -> Ok(Pf)
+    "TF" -> Ok(Tf)
+    "GA" -> Ok(Ga)
+    "GM" -> Ok(Gm)
+    "GE" -> Ok(Ge)
+    "DE" -> Ok(De)
+    "GH" -> Ok(Gh)
+    "GI" -> Ok(Gi)
+    "GR" -> Ok(Gr)
+    "GL" -> Ok(Gl)
+    "GD" -> Ok(Gd)
+    "GP" -> Ok(Gp)
+    "GU" -> Ok(Gu)
+    "GT" -> Ok(Gt)
+    "GG" -> Ok(Gg)
+    "GN" -> Ok(Gn)
+    "GW" -> Ok(Gw)
+    "GY" -> Ok(Gy)
+    "HT" -> Ok(Ht)
+    "HM" -> Ok(Hm)
+    "VA" -> Ok(Va)
+    "HN" -> Ok(Hn)
+    "HK" -> Ok(Hk)
+    "HU" -> Ok(Hu)
+    "IS" -> Ok(Is)
+    "IN" -> Ok(In)
+    "ID" -> Ok(Id)
+    "IR" -> Ok(Ir)
+    "IQ" -> Ok(Iq)
+    "IE" -> Ok(Ie)
+    "IM" -> Ok(Im)
+    "IL" -> Ok(Il)
+    "IT" -> Ok(It)
+    "JM" -> Ok(Jm)
+    "JP" -> Ok(Jp)
+    "JE" -> Ok(Je)
+    "JO" -> Ok(Jo)
+    "KZ" -> Ok(Kz)
+    "KE" -> Ok(Ke)
+    "KI" -> Ok(Ki)
+    "KP" -> Ok(Kp)
+    "KR" -> Ok(Kr)
+    "KW" -> Ok(Kw)
+    "KG" -> Ok(Kg)
+    "LA" -> Ok(La)
+    "LV" -> Ok(Lv)
+    "LB" -> Ok(Lb)
+    "LS" -> Ok(Ls)
+    "LR" -> Ok(Lr)
+    "LY" -> Ok(Ly)
+    "LI" -> Ok(Li)
+    "LT" -> Ok(Lt)
+    "LU" -> Ok(Lu)
+    "MO" -> Ok(Mo)
+    "MG" -> Ok(Mg)
+    "MW" -> Ok(Mw)
+    "MY" -> Ok(My)
+    "MV" -> Ok(Mv)
+    "ML" -> Ok(Ml)
+    "MT" -> Ok(Mt)
+    "MH" -> Ok(Mh)
+    "MQ" -> Ok(Mq)
+    "MR" -> Ok(Mr)
+    "MU" -> Ok(Mu)
+    "YT" -> Ok(Yt)
+    "MX" -> Ok(Mx)
+    "FM" -> Ok(Fm)
+    "MD" -> Ok(Md)
+    "MC" -> Ok(Mc)
+    "MN" -> Ok(Mn)
+    "ME" -> Ok(Me)
+    "MS" -> Ok(Ms)
+    "MA" -> Ok(Ma)
+    "MZ" -> Ok(Mz)
+    "MM" -> Ok(Mm)
+    "NA" -> Ok(Na)
+    "NR" -> Ok(Nr)
+    "NP" -> Ok(Np)
+    "NL" -> Ok(Nl)
+    "NC" -> Ok(Nc)
+    "NZ" -> Ok(Nz)
+    "NI" -> Ok(Ni)
+    "NE" -> Ok(Ne)
+    "NG" -> Ok(Ng)
+    "NU" -> Ok(Nu)
+    "NF" -> Ok(Nf)
+    "MK" -> Ok(Mk)
+    "MP" -> Ok(Mp)
+    "NO" -> Ok(No)
+    "OM" -> Ok(Om)
+    "PK" -> Ok(Pk)
+    "PW" -> Ok(Pw)
+    "PS" -> Ok(Ps)
+    "PA" -> Ok(Pa)
+    "PG" -> Ok(Pg)
+    "PY" -> Ok(Py)
+    "PE" -> Ok(Pe)
+    "PH" -> Ok(Ph)
+    "PN" -> Ok(Pn)
+    "PL" -> Ok(Pl)
+    "PT" -> Ok(Pt)
+    "PR" -> Ok(Pr)
+    "QA" -> Ok(Qa)
+    "RE" -> Ok(Re)
+    "RO" -> Ok(Ro)
+    "RU" -> Ok(Ru)
+    "RW" -> Ok(Rw)
+    "BL" -> Ok(Bl)
+    "SH" -> Ok(Sh)
+    "KN" -> Ok(Kn)
+    "LC" -> Ok(Lc)
+    "MF" -> Ok(Mf)
+    "PM" -> Ok(Pm)
+    "VC" -> Ok(Vc)
+    "WS" -> Ok(Ws)
+    "SM" -> Ok(Sm)
+    "ST" -> Ok(St)
+    "SA" -> Ok(Sa)
+    "SN" -> Ok(Sn)
+    "RS" -> Ok(Rs)
+    "SC" -> Ok(Sc)
+    "SL" -> Ok(Sl)
+    "SG" -> Ok(Sg)
+    "SX" -> Ok(Sx)
+    "SK" -> Ok(Sk)
+    "SI" -> Ok(Si)
+    "SB" -> Ok(Sb)
+    "SO" -> Ok(So)
+    "ZA" -> Ok(Za)
+    "GS" -> Ok(Gs)
+    "SS" -> Ok(Ss)
+    "ES" -> Ok(Es)
+    "LK" -> Ok(Lk)
+    "SD" -> Ok(Sd)
+    "SR" -> Ok(Sr)
+    "SJ" -> Ok(Sj)
+    "SE" -> Ok(Se)
+    "CH" -> Ok(Ch)
+    "SY" -> Ok(Sy)
+    "TW" -> Ok(Tw)
+    "TJ" -> Ok(Tj)
+    "TZ" -> Ok(Tz)
+    "TH" -> Ok(Th)
+    "TL" -> Ok(Tl)
+    "TG" -> Ok(Tg)
+    "TK" -> Ok(Tk)
+    "TO" -> Ok(To)
+    "TT" -> Ok(Tt)
+    "TN" -> Ok(Tn)
+    "TR" -> Ok(Tr)
+    "TM" -> Ok(Tm)
+    "TC" -> Ok(Tc)
+    "TV" -> Ok(Tv)
+    "UG" -> Ok(Ug)
+    "UA" -> Ok(Ua)
+    "AE" -> Ok(Ae)
+    "GB" -> Ok(Gb)
+    "UM" -> Ok(Um)
+    "US" -> Ok(Us)
+    "UY" -> Ok(Uy)
+    "UZ" -> Ok(Uz)
+    "VU" -> Ok(Vu)
+    "VE" -> Ok(Ve)
+    "VN" -> Ok(Vn)
+    "VG" -> Ok(Vg)
+    "VI" -> Ok(Vi)
+    "WF" -> Ok(Wf)
+    "EH" -> Ok(Eh)
+    "YE" -> Ok(Ye)
+    "ZM" -> Ok(Zm)
+    "ZW" -> Ok(Zw)
     _ -> Error(IncorrectAlpha2Code)
   }
 }
@@ -2312,255 +2312,255 @@ pub fn alpha_2_code_from_string(
 /// source https://www.iso.org/obp/ui/#search/code/
 pub fn to_alpha_3_code(country c: Country) -> Alpha3Code {
   case c {
-    Afghanistan -> AFG
-    AlandIslands -> ALA
-    Albania -> ALB
-    Algeria -> DZA
-    AmericanSamoa -> ASM
-    Andorra -> AND
-    Angola -> AGO
-    Anguilla -> AIA
-    Antarctica -> ATA
-    AntiguaAndBarbuda -> ATG
-    Argentina -> ARG
-    Armenia -> ARM
-    Aruba -> ABW
-    Australia -> AUS
-    Austria -> AUT
-    Azerbaijan -> AZE
-    Bahamas -> BHS
-    Bahrain -> BHR
-    Bangladesh -> BGD
-    Barbados -> BRB
-    Belarus -> BLR
-    Belgium -> BEL
-    Belize -> BLZ
-    Benin -> BEN
-    Bermuda -> BMU
-    Bhutan -> BTN
-    Bolivia -> BOL
-    BonaireSintEustatiusAndSaba -> BES
-    BosniaAndHerzegovina -> BIH
-    Botswana -> BWA
-    BouvetIsland -> BVT
-    Brazil -> BRA
-    BritishIndianOceanTerritory -> IOT
-    BruneiDarussalam -> BRN
-    Bulgaria -> BGR
-    BurkinaFaso -> BFA
-    Burundi -> BDI
-    CaboVerde -> CPV
-    Cambodia -> KHM
-    Cameroon -> CMR
-    Canada -> CAN
-    CaymanIslands -> CYM
-    CentralAfricanRepublic -> CAF
-    Chad -> TCD
-    Chile -> CHL
-    China -> CHN
-    ChristmasIsland -> CXR
-    CocosIslands -> CCK
-    Colombia -> COL
-    Comoros -> COM
-    Congo -> COG
-    CongoDemocraticRepublic -> COD
-    CookIslands -> COK
-    CostaRica -> CRI
-    CoteDIvoire -> CIV
-    Croatia -> HRV
-    Cuba -> CUB
-    Curacao -> CUW
-    Cyprus -> CYP
-    Czechia -> CZE
-    Denmark -> DNK
-    Djibouti -> DJI
-    Dominica -> DMA
-    DominicanRepublic -> DOM
-    Ecuador -> ECU
-    Egypt -> EGY
-    ElSalvador -> SLV
-    EquatorialGuinea -> GNQ
-    Eritrea -> ERI
-    Estonia -> EST
-    Eswatini -> SWZ
-    Ethiopia -> ETH
-    FalklandIslands -> FLK
-    FaroeIslands -> FRO
-    Fiji -> FJI
-    Finland -> FIN
-    France -> FRA
-    FrenchGuiana -> GUF
-    FrenchPolynesia -> PYF
-    FrenchSouthernTerritories -> ATF
-    Gabon -> GAB
-    Gambia -> GMB
-    Georgia -> GEO
-    Germany -> DEU
-    Ghana -> GHA
-    Gibraltar -> GIB
-    Greece -> GRC
-    Greenland -> GRL
-    Grenada -> GRD
-    Guadeloupe -> GLP
-    Guam -> GUM
-    Guatemala -> GTM
-    Guernsey -> GGY
-    Guinea -> GIN
-    GuineaBissau -> GNB
-    Guyana -> GUY
-    Haiti -> HTI
-    HeardIslandAndMcDonaldIslands -> HMD
-    HolySee -> VAT
-    Honduras -> HND
-    HongKong -> HKG
-    Hungary -> HUN
-    Iceland -> ISL
-    India -> IND
-    Indonesia -> IDN
-    Iran -> IRN
-    Iraq -> IRQ
-    Ireland -> IRL
-    IsleOfMan -> IMN
-    Israel -> ISR
-    Italy -> ITA
-    Jamaica -> JAM
-    Japan -> JPN
-    Jersey -> JEY
-    Jordan -> JOR
-    Kazakhstan -> KAZ
-    Kenya -> KEN
-    Kiribati -> KIR
-    KoreaDemocraticPeoplesRepublic -> PRK
-    KoreaRepublic -> KOR
-    Kuwait -> KWT
-    Kyrgyzstan -> KGZ
-    LaoPeoplesDemocraticRepublic -> LAO
-    Latvia -> LVA
-    Lebanon -> LBN
-    Lesotho -> LSO
-    Liberia -> LBR
-    Libya -> LBY
-    Liechtenstein -> LIE
-    Lithuania -> LTU
-    Luxembourg -> LUX
-    Macao -> MAC
-    Madagascar -> MDG
-    Malawi -> MWI
-    Malaysia -> MYS
-    Maldives -> MDV
-    Mali -> MLI
-    Malta -> MLT
-    MarshallIslands -> MHL
-    Martinique -> MTQ
-    Mauritania -> MRT
-    Mauritius -> MUS
-    Mayotte -> MYT
-    Mexico -> MEX
-    Micronesia -> FSM
-    Moldova -> MDA
-    Monaco -> MCO
-    Mongolia -> MNG
-    Montenegro -> MNE
-    Montserrat -> MSR
-    Morocco -> MAR
-    Mozambique -> MOZ
-    Myanmar -> MMR
-    Namibia -> NAM
-    Nauru -> NRU
-    Nepal -> NPL
-    Netherlands -> NLD
-    NewCaledonia -> NCL
-    NewZealand -> NZL
-    Nicaragua -> NIC
-    Niger -> NER
-    Nigeria -> NGA
-    Niue -> NIU
-    NorfolkIsland -> NFK
-    NorthMacedonia -> MKD
-    NorthernMarianaIslands -> MNP
-    Norway -> NOR
-    Oman -> OMN
-    Pakistan -> PAK
-    Palau -> PLW
-    Palestine -> PSE
-    Panama -> PAN
-    PapuaNewGuinea -> PNG
-    Paraguay -> PRY
-    Peru -> PER
-    Philippines -> PHL
-    Pitcairn -> PCN
-    Poland -> POL
-    Portugal -> PRT
-    PuertoRico -> PRI
-    Qatar -> QAT
-    Reunion -> REU
-    Romania -> ROU
-    RussianFederation -> RUS
-    Rwanda -> RWA
-    SaintBarthelemy -> BLM
-    SaintHelenaAscensionTristanDaCunha -> SHN
-    SaintKittsAndNevis -> KNA
-    SaintLucia -> LCA
-    SaintMartinFrenchPart -> MAF
-    SaintPierreAndMiquelon -> SPM
-    SaintVincentAndTheGrenadines -> VCT
-    Samoa -> WSM
-    SanMarino -> SMR
-    SaoTomeAndPrincipe -> STP
-    SaudiArabia -> SAU
-    Senegal -> SEN
-    Serbia -> SRB
-    Seychelles -> SYC
-    SierraLeone -> SLE
-    Singapore -> SGP
-    SintMaartenDutchPart -> SXM
-    Slovakia -> SVK
-    Slovenia -> SVN
-    SolomonIslands -> SLB
-    Somalia -> SOM
-    SouthAfrica -> ZAF
-    SouthGeorgiaSouthSandwichIslands -> SGS
-    SouthSudan -> SSD
-    Spain -> ESP
-    SriLanka -> LKA
-    Sudan -> SDN
-    Suriname -> SUR
-    SvalbardJanMayen -> SJM
-    Sweden -> SWE
-    Switzerland -> CHE
-    SyrianArabRepublic -> SYR
-    TaiwanProvinceOfChina -> TWN
-    Tajikistan -> TJK
-    Tanzania -> TZA
-    Thailand -> THA
-    TimorLeste -> TLS
-    Togo -> TGO
-    Tokelau -> TKL
-    Tonga -> TON
-    TrinidadAndTobago -> TTO
-    Tunisia -> TUN
-    Turkey -> TUR
-    Turkmenistan -> TKM
-    TurksAndCaicosIslands -> TCA
-    Tuvalu -> TUV
-    Uganda -> UGA
-    Ukraine -> UKR
-    UnitedArabEmirates -> ARE
-    UnitedKingdom -> GBR
-    UnitedStatesOfAmerica -> USA
-    UnitedStatesOutlyingIslands -> UMI
-    Uruguay -> URY
-    Uzbekistan -> UZB
-    Vanuatu -> VUT
-    Venezuela -> VEN
-    VietNam -> VNM
-    VirginIslandsBritish -> VGB
-    VirginIslandsUS -> VIR
-    WallisAndFutuna -> WLF
-    WesternSahara -> ESH
-    Yemen -> YEM
-    Zambia -> ZMB
-    Zimbabwe -> ZWE
+    Afghanistan -> Afg
+    AlandIslands -> Ala
+    Albania -> Alb
+    Algeria -> Dza
+    AmericanSamoa -> Asm
+    Andorra -> And
+    Angola -> Ago
+    Anguilla -> Aia
+    Antarctica -> Ata
+    AntiguaAndBarbuda -> Atg
+    Argentina -> Arg
+    Armenia -> Arm
+    Aruba -> Abw
+    Australia -> Aus
+    Austria -> Aut
+    Azerbaijan -> Aze
+    Bahamas -> Bhs
+    Bahrain -> Bhr
+    Bangladesh -> Bgd
+    Barbados -> Brb
+    Belarus -> Blr
+    Belgium -> Bel
+    Belize -> Blz
+    Benin -> Ben
+    Bermuda -> Bmu
+    Bhutan -> Btn
+    Bolivia -> Bol
+    BonaireSintEustatiusAndSaba -> Bes
+    BosniaAndHerzegovina -> Bih
+    Botswana -> Bwa
+    BouvetIsland -> Bvt
+    Brazil -> Bra
+    BritishIndianOceanTerritory -> Iot
+    BruneiDarussalam -> Brn
+    Bulgaria -> Bgr
+    BurkinaFaso -> Bfa
+    Burundi -> Bdi
+    CaboVerde -> Cpv
+    Cambodia -> Khm
+    Cameroon -> Cmr
+    Canada -> Can
+    CaymanIslands -> Cym
+    CentralAfricanRepublic -> Caf
+    Chad -> Tcd
+    Chile -> Chl
+    China -> Chn
+    ChristmasIsland -> Cxr
+    CocosIslands -> Cck
+    Colombia -> Col
+    Comoros -> Com
+    Congo -> Cog
+    CongoDemocraticRepublic -> Cod
+    CookIslands -> Cok
+    CostaRica -> Cri
+    CoteDIvoire -> Civ
+    Croatia -> Hrv
+    Cuba -> Cub
+    Curacao -> Cuw
+    Cyprus -> Cyp
+    Czechia -> Cze
+    Denmark -> Dnk
+    Djibouti -> Dji
+    Dominica -> Dma
+    DominicanRepublic -> Dom
+    Ecuador -> Ecu
+    Egypt -> Egy
+    ElSalvador -> Slv
+    EquatorialGuinea -> Gnq
+    Eritrea -> Eri
+    Estonia -> Est
+    Eswatini -> Swz
+    Ethiopia -> Eth
+    FalklandIslands -> Flk
+    FaroeIslands -> Fro
+    Fiji -> Fji
+    Finland -> Fin
+    France -> Fra
+    FrenchGuiana -> Guf
+    FrenchPolynesia -> Pyf
+    FrenchSouthernTerritories -> Atf
+    Gabon -> Gab
+    Gambia -> Gmb
+    Georgia -> Geo
+    Germany -> Deu
+    Ghana -> Gha
+    Gibraltar -> Gib
+    Greece -> Grc
+    Greenland -> Grl
+    Grenada -> Grd
+    Guadeloupe -> Glp
+    Guam -> Gum
+    Guatemala -> Gtm
+    Guernsey -> Ggy
+    Guinea -> Gin
+    GuineaBissau -> Gnb
+    Guyana -> Guy
+    Haiti -> Hti
+    HeardIslandAndMcDonaldIslands -> Hmd
+    HolySee -> Vat
+    Honduras -> Hnd
+    HongKong -> Hkg
+    Hungary -> Hun
+    Iceland -> Isl
+    India -> Ind
+    Indonesia -> Idn
+    Iran -> Irn
+    Iraq -> Irq
+    Ireland -> Irl
+    IsleOfMan -> Imn
+    Israel -> Isr
+    Italy -> Ita
+    Jamaica -> Jam
+    Japan -> Jpn
+    Jersey -> Jey
+    Jordan -> Jor
+    Kazakhstan -> Kaz
+    Kenya -> Ken
+    Kiribati -> Kir
+    KoreaDemocraticPeoplesRepublic -> Prk
+    KoreaRepublic -> Kor
+    Kuwait -> Kwt
+    Kyrgyzstan -> Kgz
+    LaoPeoplesDemocraticRepublic -> Lao
+    Latvia -> Lva
+    Lebanon -> Lbn
+    Lesotho -> Lso
+    Liberia -> Lbr
+    Libya -> Lby
+    Liechtenstein -> Lie
+    Lithuania -> Ltu
+    Luxembourg -> Lux
+    Macao -> Mac
+    Madagascar -> Mdg
+    Malawi -> Mwi
+    Malaysia -> Mys
+    Maldives -> Mdv
+    Mali -> Mli
+    Malta -> Mlt
+    MarshallIslands -> Mhl
+    Martinique -> Mtq
+    Mauritania -> Mrt
+    Mauritius -> Mus
+    Mayotte -> Myt
+    Mexico -> Mex
+    Micronesia -> Fsm
+    Moldova -> Mda
+    Monaco -> Mco
+    Mongolia -> Mng
+    Montenegro -> Mne
+    Montserrat -> Msr
+    Morocco -> Mar
+    Mozambique -> Moz
+    Myanmar -> Mmr
+    Namibia -> Nam
+    Nauru -> Nru
+    Nepal -> Npl
+    Netherlands -> Nld
+    NewCaledonia -> Ncl
+    NewZealand -> Nzl
+    Nicaragua -> Nic
+    Niger -> Ner
+    Nigeria -> Nga
+    Niue -> Niu
+    NorfolkIsland -> Nfk
+    NorthMacedonia -> Mkd
+    NorthernMarianaIslands -> Mnp
+    Norway -> Nor
+    Oman -> Omn
+    Pakistan -> Pak
+    Palau -> Plw
+    Palestine -> Pse
+    Panama -> Pan
+    PapuaNewGuinea -> Png
+    Paraguay -> Pry
+    Peru -> Per
+    Philippines -> Phl
+    Pitcairn -> Pcn
+    Poland -> Pol
+    Portugal -> Prt
+    PuertoRico -> Pri
+    Qatar -> Qat
+    Reunion -> Reu
+    Romania -> Rou
+    RussianFederation -> Rus
+    Rwanda -> Rwa
+    SaintBarthelemy -> Blm
+    SaintHelenaAscensionTristanDaCunha -> Shn
+    SaintKittsAndNevis -> Kna
+    SaintLucia -> Lca
+    SaintMartinFrenchPart -> Maf
+    SaintPierreAndMiquelon -> Spm
+    SaintVincentAndTheGrenadines -> Vct
+    Samoa -> Wsm
+    SanMarino -> Smr
+    SaoTomeAndPrincipe -> Stp
+    SaudiArabia -> Sau
+    Senegal -> Sen
+    Serbia -> Srb
+    Seychelles -> Syc
+    SierraLeone -> Sle
+    Singapore -> Sgp
+    SintMaartenDutchPart -> Sxm
+    Slovakia -> Svk
+    Slovenia -> Svn
+    SolomonIslands -> Slb
+    Somalia -> Som
+    SouthAfrica -> Zaf
+    SouthGeorgiaSouthSandwichIslands -> Sgs
+    SouthSudan -> Ssd
+    Spain -> Esp
+    SriLanka -> Lka
+    Sudan -> Sdn
+    Suriname -> Sur
+    SvalbardJanMayen -> Sjm
+    Sweden -> Swe
+    Switzerland -> Che
+    SyrianArabRepublic -> Syr
+    TaiwanProvinceOfChina -> Twn
+    Tajikistan -> Tjk
+    Tanzania -> Tza
+    Thailand -> Tha
+    TimorLeste -> Tls
+    Togo -> Tgo
+    Tokelau -> Tkl
+    Tonga -> Ton
+    TrinidadAndTobago -> Tto
+    Tunisia -> Tun
+    Turkey -> Tur
+    Turkmenistan -> Tkm
+    TurksAndCaicosIslands -> Tca
+    Tuvalu -> Tuv
+    Uganda -> Uga
+    Ukraine -> Ukr
+    UnitedArabEmirates -> Are
+    UnitedKingdom -> Gbr
+    UnitedStatesOfAmerica -> Usa
+    UnitedStatesOutlyingIslands -> Umi
+    Uruguay -> Ury
+    Uzbekistan -> Uzb
+    Vanuatu -> Vut
+    Venezuela -> Ven
+    VietNam -> Vnm
+    VirginIslandsBritish -> Vgb
+    VirginIslandsUS -> Vir
+    WallisAndFutuna -> Wlf
+    WesternSahara -> Esh
+    Yemen -> Yem
+    Zambia -> Zmb
+    Zimbabwe -> Zwe
   }
 }
 
@@ -2568,255 +2568,255 @@ pub fn to_alpha_3_code(country c: Country) -> Alpha3Code {
 /// source https://www.iso.org/obp/ui/#search/code/
 pub fn from_alpha_3_code(code a: Alpha3Code) -> Country {
   case a {
-    AFG -> Afghanistan
-    ALA -> AlandIslands
-    ALB -> Albania
-    DZA -> Algeria
-    ASM -> AmericanSamoa
-    AND -> Andorra
-    AGO -> Angola
-    AIA -> Anguilla
-    ATA -> Antarctica
-    ATG -> AntiguaAndBarbuda
-    ARG -> Argentina
-    ARM -> Armenia
-    ABW -> Aruba
-    AUS -> Australia
-    AUT -> Austria
-    AZE -> Azerbaijan
-    BHS -> Bahamas
-    BHR -> Bahrain
-    BGD -> Bangladesh
-    BRB -> Barbados
-    BLR -> Belarus
-    BEL -> Belgium
-    BLZ -> Belize
-    BEN -> Benin
-    BMU -> Bermuda
-    BTN -> Bhutan
-    BOL -> Bolivia
-    BES -> BonaireSintEustatiusAndSaba
-    BIH -> BosniaAndHerzegovina
-    BWA -> Botswana
-    BVT -> BouvetIsland
-    BRA -> Brazil
-    IOT -> BritishIndianOceanTerritory
-    BRN -> BruneiDarussalam
-    BGR -> Bulgaria
-    BFA -> BurkinaFaso
-    BDI -> Burundi
-    CPV -> CaboVerde
-    KHM -> Cambodia
-    CMR -> Cameroon
-    CAN -> Canada
-    CYM -> CaymanIslands
-    CAF -> CentralAfricanRepublic
-    TCD -> Chad
-    CHL -> Chile
-    CHN -> China
-    CXR -> ChristmasIsland
-    CCK -> CocosIslands
-    COL -> Colombia
-    COM -> Comoros
-    COG -> Congo
-    COD -> CongoDemocraticRepublic
-    COK -> CookIslands
-    CRI -> CostaRica
-    CIV -> CoteDIvoire
-    HRV -> Croatia
-    CUB -> Cuba
-    CUW -> Curacao
-    CYP -> Cyprus
-    CZE -> Czechia
-    DNK -> Denmark
-    DJI -> Djibouti
-    DMA -> Dominica
-    DOM -> DominicanRepublic
-    ECU -> Ecuador
-    EGY -> Egypt
-    SLV -> ElSalvador
-    GNQ -> EquatorialGuinea
-    ERI -> Eritrea
-    EST -> Estonia
-    SWZ -> Eswatini
-    ETH -> Ethiopia
-    FLK -> FalklandIslands
-    FRO -> FaroeIslands
-    FJI -> Fiji
-    FIN -> Finland
-    FRA -> France
-    GUF -> FrenchGuiana
-    PYF -> FrenchPolynesia
-    ATF -> FrenchSouthernTerritories
-    GAB -> Gabon
-    GMB -> Gambia
-    GEO -> Georgia
-    DEU -> Germany
-    GHA -> Ghana
-    GIB -> Gibraltar
-    GRC -> Greece
-    GRL -> Greenland
-    GRD -> Grenada
-    GLP -> Guadeloupe
-    GUM -> Guam
-    GTM -> Guatemala
-    GGY -> Guernsey
-    GIN -> Guinea
-    GNB -> GuineaBissau
-    GUY -> Guyana
-    HTI -> Haiti
-    HMD -> HeardIslandAndMcDonaldIslands
-    VAT -> HolySee
-    HND -> Honduras
-    HKG -> HongKong
-    HUN -> Hungary
-    ISL -> Iceland
-    IND -> India
-    IDN -> Indonesia
-    IRN -> Iran
-    IRQ -> Iraq
-    IRL -> Ireland
-    IMN -> IsleOfMan
-    ISR -> Israel
-    ITA -> Italy
-    JAM -> Jamaica
-    JPN -> Japan
-    JEY -> Jersey
-    JOR -> Jordan
-    KAZ -> Kazakhstan
-    KEN -> Kenya
-    KIR -> Kiribati
-    PRK -> KoreaDemocraticPeoplesRepublic
-    KOR -> KoreaRepublic
-    KWT -> Kuwait
-    KGZ -> Kyrgyzstan
-    LAO -> LaoPeoplesDemocraticRepublic
-    LVA -> Latvia
-    LBN -> Lebanon
-    LSO -> Lesotho
-    LBR -> Liberia
-    LBY -> Libya
-    LIE -> Liechtenstein
-    LTU -> Lithuania
-    LUX -> Luxembourg
-    MAC -> Macao
-    MDG -> Madagascar
-    MWI -> Malawi
-    MYS -> Malaysia
-    MDV -> Maldives
-    MLI -> Mali
-    MLT -> Malta
-    MHL -> MarshallIslands
-    MTQ -> Martinique
-    MRT -> Mauritania
-    MUS -> Mauritius
-    MYT -> Mayotte
-    MEX -> Mexico
-    FSM -> Micronesia
-    MDA -> Moldova
-    MCO -> Monaco
-    MNG -> Mongolia
-    MNE -> Montenegro
-    MSR -> Montserrat
-    MAR -> Morocco
-    MOZ -> Mozambique
-    MMR -> Myanmar
-    NAM -> Namibia
-    NRU -> Nauru
-    NPL -> Nepal
-    NLD -> Netherlands
-    NCL -> NewCaledonia
-    NZL -> NewZealand
-    NIC -> Nicaragua
-    NER -> Niger
-    NGA -> Nigeria
-    NIU -> Niue
-    NFK -> NorfolkIsland
-    MKD -> NorthMacedonia
-    MNP -> NorthernMarianaIslands
-    NOR -> Norway
-    OMN -> Oman
-    PAK -> Pakistan
-    PLW -> Palau
-    PSE -> Palestine
-    PAN -> Panama
-    PNG -> PapuaNewGuinea
-    PRY -> Paraguay
-    PER -> Peru
-    PHL -> Philippines
-    PCN -> Pitcairn
-    POL -> Poland
-    PRT -> Portugal
-    PRI -> PuertoRico
-    QAT -> Qatar
-    REU -> Reunion
-    ROU -> Romania
-    RUS -> RussianFederation
-    RWA -> Rwanda
-    BLM -> SaintBarthelemy
-    SHN -> SaintHelenaAscensionTristanDaCunha
-    KNA -> SaintKittsAndNevis
-    LCA -> SaintLucia
-    MAF -> SaintMartinFrenchPart
-    SPM -> SaintPierreAndMiquelon
-    VCT -> SaintVincentAndTheGrenadines
-    WSM -> Samoa
-    SMR -> SanMarino
-    STP -> SaoTomeAndPrincipe
-    SAU -> SaudiArabia
-    SEN -> Senegal
-    SRB -> Serbia
-    SYC -> Seychelles
-    SLE -> SierraLeone
-    SGP -> Singapore
-    SXM -> SintMaartenDutchPart
-    SVK -> Slovakia
-    SVN -> Slovenia
-    SLB -> SolomonIslands
-    SOM -> Somalia
-    ZAF -> SouthAfrica
-    SGS -> SouthGeorgiaSouthSandwichIslands
-    SSD -> SouthSudan
-    ESP -> Spain
-    LKA -> SriLanka
-    SDN -> Sudan
-    SUR -> Suriname
-    SJM -> SvalbardJanMayen
-    SWE -> Sweden
-    CHE -> Switzerland
-    SYR -> SyrianArabRepublic
-    TWN -> TaiwanProvinceOfChina
-    TJK -> Tajikistan
-    TZA -> Tanzania
-    THA -> Thailand
-    TLS -> TimorLeste
-    TGO -> Togo
-    TKL -> Tokelau
-    TON -> Tonga
-    TTO -> TrinidadAndTobago
-    TUN -> Tunisia
-    TUR -> Turkey
-    TKM -> Turkmenistan
-    TCA -> TurksAndCaicosIslands
-    TUV -> Tuvalu
-    UGA -> Uganda
-    UKR -> Ukraine
-    ARE -> UnitedArabEmirates
-    GBR -> UnitedKingdom
-    USA -> UnitedStatesOfAmerica
-    UMI -> UnitedStatesOutlyingIslands
-    URY -> Uruguay
-    UZB -> Uzbekistan
-    VUT -> Vanuatu
-    VEN -> Venezuela
-    VNM -> VietNam
-    VGB -> VirginIslandsBritish
-    VIR -> VirginIslandsUS
-    WLF -> WallisAndFutuna
-    ESH -> WesternSahara
-    YEM -> Yemen
-    ZMB -> Zambia
-    ZWE -> Zimbabwe
+    Afg -> Afghanistan
+    Ala -> AlandIslands
+    Alb -> Albania
+    Dza -> Algeria
+    Asm -> AmericanSamoa
+    And -> Andorra
+    Ago -> Angola
+    Aia -> Anguilla
+    Ata -> Antarctica
+    Atg -> AntiguaAndBarbuda
+    Arg -> Argentina
+    Arm -> Armenia
+    Abw -> Aruba
+    Aus -> Australia
+    Aut -> Austria
+    Aze -> Azerbaijan
+    Bhs -> Bahamas
+    Bhr -> Bahrain
+    Bgd -> Bangladesh
+    Brb -> Barbados
+    Blr -> Belarus
+    Bel -> Belgium
+    Blz -> Belize
+    Ben -> Benin
+    Bmu -> Bermuda
+    Btn -> Bhutan
+    Bol -> Bolivia
+    Bes -> BonaireSintEustatiusAndSaba
+    Bih -> BosniaAndHerzegovina
+    Bwa -> Botswana
+    Bvt -> BouvetIsland
+    Bra -> Brazil
+    Iot -> BritishIndianOceanTerritory
+    Brn -> BruneiDarussalam
+    Bgr -> Bulgaria
+    Bfa -> BurkinaFaso
+    Bdi -> Burundi
+    Cpv -> CaboVerde
+    Khm -> Cambodia
+    Cmr -> Cameroon
+    Can -> Canada
+    Cym -> CaymanIslands
+    Caf -> CentralAfricanRepublic
+    Tcd -> Chad
+    Chl -> Chile
+    Chn -> China
+    Cxr -> ChristmasIsland
+    Cck -> CocosIslands
+    Col -> Colombia
+    Com -> Comoros
+    Cog -> Congo
+    Cod -> CongoDemocraticRepublic
+    Cok -> CookIslands
+    Cri -> CostaRica
+    Civ -> CoteDIvoire
+    Hrv -> Croatia
+    Cub -> Cuba
+    Cuw -> Curacao
+    Cyp -> Cyprus
+    Cze -> Czechia
+    Dnk -> Denmark
+    Dji -> Djibouti
+    Dma -> Dominica
+    Dom -> DominicanRepublic
+    Ecu -> Ecuador
+    Egy -> Egypt
+    Slv -> ElSalvador
+    Gnq -> EquatorialGuinea
+    Eri -> Eritrea
+    Est -> Estonia
+    Swz -> Eswatini
+    Eth -> Ethiopia
+    Flk -> FalklandIslands
+    Fro -> FaroeIslands
+    Fji -> Fiji
+    Fin -> Finland
+    Fra -> France
+    Guf -> FrenchGuiana
+    Pyf -> FrenchPolynesia
+    Atf -> FrenchSouthernTerritories
+    Gab -> Gabon
+    Gmb -> Gambia
+    Geo -> Georgia
+    Deu -> Germany
+    Gha -> Ghana
+    Gib -> Gibraltar
+    Grc -> Greece
+    Grl -> Greenland
+    Grd -> Grenada
+    Glp -> Guadeloupe
+    Gum -> Guam
+    Gtm -> Guatemala
+    Ggy -> Guernsey
+    Gin -> Guinea
+    Gnb -> GuineaBissau
+    Guy -> Guyana
+    Hti -> Haiti
+    Hmd -> HeardIslandAndMcDonaldIslands
+    Vat -> HolySee
+    Hnd -> Honduras
+    Hkg -> HongKong
+    Hun -> Hungary
+    Isl -> Iceland
+    Ind -> India
+    Idn -> Indonesia
+    Irn -> Iran
+    Irq -> Iraq
+    Irl -> Ireland
+    Imn -> IsleOfMan
+    Isr -> Israel
+    Ita -> Italy
+    Jam -> Jamaica
+    Jpn -> Japan
+    Jey -> Jersey
+    Jor -> Jordan
+    Kaz -> Kazakhstan
+    Ken -> Kenya
+    Kir -> Kiribati
+    Prk -> KoreaDemocraticPeoplesRepublic
+    Kor -> KoreaRepublic
+    Kwt -> Kuwait
+    Kgz -> Kyrgyzstan
+    Lao -> LaoPeoplesDemocraticRepublic
+    Lva -> Latvia
+    Lbn -> Lebanon
+    Lso -> Lesotho
+    Lbr -> Liberia
+    Lby -> Libya
+    Lie -> Liechtenstein
+    Ltu -> Lithuania
+    Lux -> Luxembourg
+    Mac -> Macao
+    Mdg -> Madagascar
+    Mwi -> Malawi
+    Mys -> Malaysia
+    Mdv -> Maldives
+    Mli -> Mali
+    Mlt -> Malta
+    Mhl -> MarshallIslands
+    Mtq -> Martinique
+    Mrt -> Mauritania
+    Mus -> Mauritius
+    Myt -> Mayotte
+    Mex -> Mexico
+    Fsm -> Micronesia
+    Mda -> Moldova
+    Mco -> Monaco
+    Mng -> Mongolia
+    Mne -> Montenegro
+    Msr -> Montserrat
+    Mar -> Morocco
+    Moz -> Mozambique
+    Mmr -> Myanmar
+    Nam -> Namibia
+    Nru -> Nauru
+    Npl -> Nepal
+    Nld -> Netherlands
+    Ncl -> NewCaledonia
+    Nzl -> NewZealand
+    Nic -> Nicaragua
+    Ner -> Niger
+    Nga -> Nigeria
+    Niu -> Niue
+    Nfk -> NorfolkIsland
+    Mkd -> NorthMacedonia
+    Mnp -> NorthernMarianaIslands
+    Nor -> Norway
+    Omn -> Oman
+    Pak -> Pakistan
+    Plw -> Palau
+    Pse -> Palestine
+    Pan -> Panama
+    Png -> PapuaNewGuinea
+    Pry -> Paraguay
+    Per -> Peru
+    Phl -> Philippines
+    Pcn -> Pitcairn
+    Pol -> Poland
+    Prt -> Portugal
+    Pri -> PuertoRico
+    Qat -> Qatar
+    Reu -> Reunion
+    Rou -> Romania
+    Rus -> RussianFederation
+    Rwa -> Rwanda
+    Blm -> SaintBarthelemy
+    Shn -> SaintHelenaAscensionTristanDaCunha
+    Kna -> SaintKittsAndNevis
+    Lca -> SaintLucia
+    Maf -> SaintMartinFrenchPart
+    Spm -> SaintPierreAndMiquelon
+    Vct -> SaintVincentAndTheGrenadines
+    Wsm -> Samoa
+    Smr -> SanMarino
+    Stp -> SaoTomeAndPrincipe
+    Sau -> SaudiArabia
+    Sen -> Senegal
+    Srb -> Serbia
+    Syc -> Seychelles
+    Sle -> SierraLeone
+    Sgp -> Singapore
+    Sxm -> SintMaartenDutchPart
+    Svk -> Slovakia
+    Svn -> Slovenia
+    Slb -> SolomonIslands
+    Som -> Somalia
+    Zaf -> SouthAfrica
+    Sgs -> SouthGeorgiaSouthSandwichIslands
+    Ssd -> SouthSudan
+    Esp -> Spain
+    Lka -> SriLanka
+    Sdn -> Sudan
+    Sur -> Suriname
+    Sjm -> SvalbardJanMayen
+    Swe -> Sweden
+    Che -> Switzerland
+    Syr -> SyrianArabRepublic
+    Twn -> TaiwanProvinceOfChina
+    Tjk -> Tajikistan
+    Tza -> Tanzania
+    Tha -> Thailand
+    Tls -> TimorLeste
+    Tgo -> Togo
+    Tkl -> Tokelau
+    Ton -> Tonga
+    Tto -> TrinidadAndTobago
+    Tun -> Tunisia
+    Tur -> Turkey
+    Tkm -> Turkmenistan
+    Tca -> TurksAndCaicosIslands
+    Tuv -> Tuvalu
+    Uga -> Uganda
+    Ukr -> Ukraine
+    Are -> UnitedArabEmirates
+    Gbr -> UnitedKingdom
+    Usa -> UnitedStatesOfAmerica
+    Umi -> UnitedStatesOutlyingIslands
+    Ury -> Uruguay
+    Uzb -> Uzbekistan
+    Vut -> Vanuatu
+    Ven -> Venezuela
+    Vnm -> VietNam
+    Vgb -> VirginIslandsBritish
+    Vir -> VirginIslandsUS
+    Wlf -> WallisAndFutuna
+    Esh -> WesternSahara
+    Yem -> Yemen
+    Zmb -> Zambia
+    Zwe -> Zimbabwe
   }
 }
 
@@ -2824,255 +2824,255 @@ pub fn from_alpha_3_code(code a: Alpha3Code) -> Country {
 /// source https://www.iso.org/obp/ui/#search/code/
 pub fn alpha_3_code_to_string(code a: Alpha3Code) -> String {
   case a {
-    AFG -> "AFG"
-    ALA -> "ALA"
-    ALB -> "ALB"
-    DZA -> "DZA"
-    ASM -> "ASM"
-    AND -> "AND"
-    AGO -> "AGO"
-    AIA -> "AIA"
-    ATA -> "ATA"
-    ATG -> "ATG"
-    ARG -> "ARG"
-    ARM -> "ARM"
-    ABW -> "ABW"
-    AUS -> "AUS"
-    AUT -> "AUT"
-    AZE -> "AZE"
-    BHS -> "BHS"
-    BHR -> "BHR"
-    BGD -> "BGD"
-    BRB -> "BRB"
-    BLR -> "BLR"
-    BEL -> "BEL"
-    BLZ -> "BLZ"
-    BEN -> "BEN"
-    BMU -> "BMU"
-    BTN -> "BTN"
-    BOL -> "BOL"
-    BES -> "BES"
-    BIH -> "BIH"
-    BWA -> "BWA"
-    BVT -> "BVT"
-    BRA -> "BRA"
-    IOT -> "IOT"
-    BRN -> "BRN"
-    BGR -> "BGR"
-    BFA -> "BFA"
-    BDI -> "BDI"
-    CPV -> "CPV"
-    KHM -> "KHM"
-    CMR -> "CMR"
-    CAN -> "CAN"
-    CYM -> "CYM"
-    CAF -> "CAF"
-    TCD -> "TCD"
-    CHL -> "CHL"
-    CHN -> "CHN"
-    CXR -> "CXR"
-    CCK -> "CCK"
-    COL -> "COL"
-    COM -> "COM"
-    COG -> "COG"
-    COD -> "COD"
-    COK -> "COK"
-    CRI -> "CRI"
-    CIV -> "CIV"
-    HRV -> "HRV"
-    CUB -> "CUB"
-    CUW -> "CUW"
-    CYP -> "CYP"
-    CZE -> "CZE"
-    DNK -> "DNK"
-    DJI -> "DJI"
-    DMA -> "DMA"
-    DOM -> "DOM"
-    ECU -> "ECU"
-    EGY -> "EGY"
-    SLV -> "SLV"
-    GNQ -> "GNQ"
-    ERI -> "ERI"
-    EST -> "EST"
-    SWZ -> "SWZ"
-    ETH -> "ETH"
-    FLK -> "FLK"
-    FRO -> "FRO"
-    FJI -> "FJI"
-    FIN -> "FIN"
-    FRA -> "FRA"
-    GUF -> "GUF"
-    PYF -> "PYF"
-    ATF -> "ATF"
-    GAB -> "GAB"
-    GMB -> "GMB"
-    GEO -> "GEO"
-    DEU -> "DEU"
-    GHA -> "GHA"
-    GIB -> "GIB"
-    GRC -> "GRC"
-    GRL -> "GRL"
-    GRD -> "GRD"
-    GLP -> "GLP"
-    GUM -> "GUM"
-    GTM -> "GTM"
-    GGY -> "GGY"
-    GIN -> "GIN"
-    GNB -> "GNB"
-    GUY -> "GUY"
-    HTI -> "HTI"
-    HMD -> "HMD"
-    VAT -> "VAT"
-    HND -> "HND"
-    HKG -> "HKG"
-    HUN -> "HUN"
-    ISL -> "ISL"
-    IND -> "IND"
-    IDN -> "IDN"
-    IRN -> "IRN"
-    IRQ -> "IRQ"
-    IRL -> "IRL"
-    IMN -> "IMN"
-    ISR -> "ISR"
-    ITA -> "ITA"
-    JAM -> "JAM"
-    JPN -> "JPN"
-    JEY -> "JEY"
-    JOR -> "JOR"
-    KAZ -> "KAZ"
-    KEN -> "KEN"
-    KIR -> "KIR"
-    PRK -> "PRK"
-    KOR -> "KOR"
-    KWT -> "KWT"
-    KGZ -> "KGZ"
-    LAO -> "LAO"
-    LVA -> "LVA"
-    LBN -> "LBN"
-    LSO -> "LSO"
-    LBR -> "LBR"
-    LBY -> "LBY"
-    LIE -> "LIE"
-    LTU -> "LTU"
-    LUX -> "LUX"
-    MAC -> "MAC"
-    MDG -> "MDG"
-    MWI -> "MWI"
-    MYS -> "MYS"
-    MDV -> "MDV"
-    MLI -> "MLI"
-    MLT -> "MLT"
-    MHL -> "MHL"
-    MTQ -> "MTQ"
-    MRT -> "MRT"
-    MUS -> "MUS"
-    MYT -> "MYT"
-    MEX -> "MEX"
-    FSM -> "FSM"
-    MDA -> "MDA"
-    MCO -> "MCO"
-    MNG -> "MNG"
-    MNE -> "MNE"
-    MSR -> "MSR"
-    MAR -> "MAR"
-    MOZ -> "MOZ"
-    MMR -> "MMR"
-    NAM -> "NAM"
-    NRU -> "NRU"
-    NPL -> "NPL"
-    NLD -> "NLD"
-    NCL -> "NCL"
-    NZL -> "NZL"
-    NIC -> "NIC"
-    NER -> "NER"
-    NGA -> "NGA"
-    NIU -> "NIU"
-    NFK -> "NFK"
-    MKD -> "MKD"
-    MNP -> "MNP"
-    NOR -> "NOR"
-    OMN -> "OMN"
-    PAK -> "PAK"
-    PLW -> "PLW"
-    PSE -> "PSE"
-    PAN -> "PAN"
-    PNG -> "PNG"
-    PRY -> "PRY"
-    PER -> "PER"
-    PHL -> "PHL"
-    PCN -> "PCN"
-    POL -> "POL"
-    PRT -> "PRT"
-    PRI -> "PRI"
-    QAT -> "QAT"
-    REU -> "REU"
-    ROU -> "ROU"
-    RUS -> "RUS"
-    RWA -> "RWA"
-    BLM -> "BLM"
-    SHN -> "SHN"
-    KNA -> "KNA"
-    LCA -> "LCA"
-    MAF -> "MAF"
-    SPM -> "SPM"
-    VCT -> "VCT"
-    WSM -> "WSM"
-    SMR -> "SMR"
-    STP -> "STP"
-    SAU -> "SAU"
-    SEN -> "SEN"
-    SRB -> "SRB"
-    SYC -> "SYC"
-    SLE -> "SLE"
-    SGP -> "SGP"
-    SXM -> "SXM"
-    SVK -> "SVK"
-    SVN -> "SVN"
-    SLB -> "SLB"
-    SOM -> "SOM"
-    ZAF -> "ZAF"
-    SGS -> "SGS"
-    SSD -> "SSD"
-    ESP -> "ESP"
-    LKA -> "LKA"
-    SDN -> "SDN"
-    SUR -> "SUR"
-    SJM -> "SJM"
-    SWE -> "SWE"
-    CHE -> "CHE"
-    SYR -> "SYR"
-    TWN -> "TWN"
-    TJK -> "TJK"
-    TZA -> "TZA"
-    THA -> "THA"
-    TLS -> "TLS"
-    TGO -> "TGO"
-    TKL -> "TKL"
-    TON -> "TON"
-    TTO -> "TTO"
-    TUN -> "TUN"
-    TUR -> "TUR"
-    TKM -> "TKM"
-    TCA -> "TCA"
-    TUV -> "TUV"
-    UGA -> "UGA"
-    UKR -> "UKR"
-    ARE -> "ARE"
-    GBR -> "GBR"
-    UMI -> "UMI"
-    USA -> "USA"
-    URY -> "URY"
-    UZB -> "UZB"
-    VUT -> "VUT"
-    VEN -> "VEN"
-    VNM -> "VNM"
-    VGB -> "VGB"
-    VIR -> "VIR"
-    WLF -> "WLF"
-    ESH -> "ESH"
-    YEM -> "YEM"
-    ZMB -> "ZMB"
-    ZWE -> "ZWE"
+    Afg -> "AFG"
+    Ala -> "ALA"
+    Alb -> "ALB"
+    Dza -> "DZA"
+    Asm -> "ASM"
+    And -> "AND"
+    Ago -> "AGO"
+    Aia -> "AIA"
+    Ata -> "ATA"
+    Atg -> "ATG"
+    Arg -> "ARG"
+    Arm -> "ARM"
+    Abw -> "ABW"
+    Aus -> "AUS"
+    Aut -> "AUT"
+    Aze -> "AZE"
+    Bhs -> "BHS"
+    Bhr -> "BHR"
+    Bgd -> "BGD"
+    Brb -> "BRB"
+    Blr -> "BLR"
+    Bel -> "BEL"
+    Blz -> "BLZ"
+    Ben -> "BEN"
+    Bmu -> "BMU"
+    Btn -> "BTN"
+    Bol -> "BOL"
+    Bes -> "BES"
+    Bih -> "BIH"
+    Bwa -> "BWA"
+    Bvt -> "BVT"
+    Bra -> "BRA"
+    Iot -> "IOT"
+    Brn -> "BRN"
+    Bgr -> "BGR"
+    Bfa -> "BFA"
+    Bdi -> "BDI"
+    Cpv -> "CPV"
+    Khm -> "KHM"
+    Cmr -> "CMR"
+    Can -> "CAN"
+    Cym -> "CYM"
+    Caf -> "CAF"
+    Tcd -> "TCD"
+    Chl -> "CHL"
+    Chn -> "CHN"
+    Cxr -> "CXR"
+    Cck -> "CCK"
+    Col -> "COL"
+    Com -> "COM"
+    Cog -> "COG"
+    Cod -> "COD"
+    Cok -> "COK"
+    Cri -> "CRI"
+    Civ -> "CIV"
+    Hrv -> "HRV"
+    Cub -> "CUB"
+    Cuw -> "CUW"
+    Cyp -> "CYP"
+    Cze -> "CZE"
+    Dnk -> "DNK"
+    Dji -> "DJI"
+    Dma -> "DMA"
+    Dom -> "DOM"
+    Ecu -> "ECU"
+    Egy -> "EGY"
+    Slv -> "SLV"
+    Gnq -> "GNQ"
+    Eri -> "ERI"
+    Est -> "EST"
+    Swz -> "SWZ"
+    Eth -> "ETH"
+    Flk -> "FLK"
+    Fro -> "FRO"
+    Fji -> "FJI"
+    Fin -> "FIN"
+    Fra -> "FRA"
+    Guf -> "GUF"
+    Pyf -> "PYF"
+    Atf -> "ATF"
+    Gab -> "GAB"
+    Gmb -> "GMB"
+    Geo -> "GEO"
+    Deu -> "DEU"
+    Gha -> "GHA"
+    Gib -> "GIB"
+    Grc -> "GRC"
+    Grl -> "GRL"
+    Grd -> "GRD"
+    Glp -> "GLP"
+    Gum -> "GUM"
+    Gtm -> "GTM"
+    Ggy -> "GGY"
+    Gin -> "GIN"
+    Gnb -> "GNB"
+    Guy -> "GUY"
+    Hti -> "HTI"
+    Hmd -> "HMD"
+    Vat -> "VAT"
+    Hnd -> "HND"
+    Hkg -> "HKG"
+    Hun -> "HUN"
+    Isl -> "ISL"
+    Ind -> "IND"
+    Idn -> "IDN"
+    Irn -> "IRN"
+    Irq -> "IRQ"
+    Irl -> "IRL"
+    Imn -> "IMN"
+    Isr -> "ISR"
+    Ita -> "ITA"
+    Jam -> "JAM"
+    Jpn -> "JPN"
+    Jey -> "JEY"
+    Jor -> "JOR"
+    Kaz -> "KAZ"
+    Ken -> "KEN"
+    Kir -> "KIR"
+    Prk -> "PRK"
+    Kor -> "KOR"
+    Kwt -> "KWT"
+    Kgz -> "KGZ"
+    Lao -> "LAO"
+    Lva -> "LVA"
+    Lbn -> "LBN"
+    Lso -> "LSO"
+    Lbr -> "LBR"
+    Lby -> "LBY"
+    Lie -> "LIE"
+    Ltu -> "LTU"
+    Lux -> "LUX"
+    Mac -> "MAC"
+    Mdg -> "MDG"
+    Mwi -> "MWI"
+    Mys -> "MYS"
+    Mdv -> "MDV"
+    Mli -> "MLI"
+    Mlt -> "MLT"
+    Mhl -> "MHL"
+    Mtq -> "MTQ"
+    Mrt -> "MRT"
+    Mus -> "MUS"
+    Myt -> "MYT"
+    Mex -> "MEX"
+    Fsm -> "FSM"
+    Mda -> "MDA"
+    Mco -> "MCO"
+    Mng -> "MNG"
+    Mne -> "MNE"
+    Msr -> "MSR"
+    Mar -> "MAR"
+    Moz -> "MOZ"
+    Mmr -> "MMR"
+    Nam -> "NAM"
+    Nru -> "NRU"
+    Npl -> "NPL"
+    Nld -> "NLD"
+    Ncl -> "NCL"
+    Nzl -> "NZL"
+    Nic -> "NIC"
+    Ner -> "NER"
+    Nga -> "NGA"
+    Niu -> "NIU"
+    Nfk -> "NFK"
+    Mkd -> "MKD"
+    Mnp -> "MNP"
+    Nor -> "NOR"
+    Omn -> "OMN"
+    Pak -> "PAK"
+    Plw -> "PLW"
+    Pse -> "PSE"
+    Pan -> "PAN"
+    Png -> "PNG"
+    Pry -> "PRY"
+    Per -> "PER"
+    Phl -> "PHL"
+    Pcn -> "PCN"
+    Pol -> "POL"
+    Prt -> "PRT"
+    Pri -> "PRI"
+    Qat -> "QAT"
+    Reu -> "REU"
+    Rou -> "ROU"
+    Rus -> "RUS"
+    Rwa -> "RWA"
+    Blm -> "BLM"
+    Shn -> "SHN"
+    Kna -> "KNA"
+    Lca -> "LCA"
+    Maf -> "MAF"
+    Spm -> "SPM"
+    Vct -> "VCT"
+    Wsm -> "WSM"
+    Smr -> "SMR"
+    Stp -> "STP"
+    Sau -> "SAU"
+    Sen -> "SEN"
+    Srb -> "SRB"
+    Syc -> "SYC"
+    Sle -> "SLE"
+    Sgp -> "SGP"
+    Sxm -> "SXM"
+    Svk -> "SVK"
+    Svn -> "SVN"
+    Slb -> "SLB"
+    Som -> "SOM"
+    Zaf -> "ZAF"
+    Sgs -> "SGS"
+    Ssd -> "SSD"
+    Esp -> "ESP"
+    Lka -> "LKA"
+    Sdn -> "SDN"
+    Sur -> "SUR"
+    Sjm -> "SJM"
+    Swe -> "SWE"
+    Che -> "CHE"
+    Syr -> "SYR"
+    Twn -> "TWN"
+    Tjk -> "TJK"
+    Tza -> "TZA"
+    Tha -> "THA"
+    Tls -> "TLS"
+    Tgo -> "TGO"
+    Tkl -> "TKL"
+    Ton -> "TON"
+    Tto -> "TTO"
+    Tun -> "TUN"
+    Tur -> "TUR"
+    Tkm -> "TKM"
+    Tca -> "TCA"
+    Tuv -> "TUV"
+    Uga -> "UGA"
+    Ukr -> "UKR"
+    Are -> "ARE"
+    Gbr -> "GBR"
+    Umi -> "UMI"
+    Usa -> "USA"
+    Ury -> "URY"
+    Uzb -> "UZB"
+    Vut -> "VUT"
+    Ven -> "VEN"
+    Vnm -> "VNM"
+    Vgb -> "VGB"
+    Vir -> "VIR"
+    Wlf -> "WLF"
+    Esh -> "ESH"
+    Yem -> "YEM"
+    Zmb -> "ZMB"
+    Zwe -> "ZWE"
   }
 }
 
@@ -3082,255 +3082,255 @@ pub fn alpha_3_code_from_string(
   code code: String,
 ) -> Result(Alpha3Code, CountryError) {
   case code {
-    "AFG" -> Ok(AFG)
-    "ALA" -> Ok(ALA)
-    "ALB" -> Ok(ALB)
-    "DZA" -> Ok(DZA)
-    "ASM" -> Ok(ASM)
-    "AND" -> Ok(AND)
-    "AGO" -> Ok(AGO)
-    "AIA" -> Ok(AIA)
-    "ATA" -> Ok(ATA)
-    "ATG" -> Ok(ATG)
-    "ARG" -> Ok(ARG)
-    "ARM" -> Ok(ARM)
-    "ABW" -> Ok(ABW)
-    "AUS" -> Ok(AUS)
-    "AUT" -> Ok(AUT)
-    "AZE" -> Ok(AZE)
-    "BHS" -> Ok(BHS)
-    "BHR" -> Ok(BHR)
-    "BGD" -> Ok(BGD)
-    "BRB" -> Ok(BRB)
-    "BLR" -> Ok(BLR)
-    "BEL" -> Ok(BEL)
-    "BLZ" -> Ok(BLZ)
-    "BEN" -> Ok(BEN)
-    "BMU" -> Ok(BMU)
-    "BTN" -> Ok(BTN)
-    "BOL" -> Ok(BOL)
-    "BES" -> Ok(BES)
-    "BIH" -> Ok(BIH)
-    "BWA" -> Ok(BWA)
-    "BVT" -> Ok(BVT)
-    "BRA" -> Ok(BRA)
-    "IOT" -> Ok(IOT)
-    "BRN" -> Ok(BRN)
-    "BGR" -> Ok(BGR)
-    "BFA" -> Ok(BFA)
-    "BDI" -> Ok(BDI)
-    "CPV" -> Ok(CPV)
-    "KHM" -> Ok(KHM)
-    "CMR" -> Ok(CMR)
-    "CAN" -> Ok(CAN)
-    "CYM" -> Ok(CYM)
-    "CAF" -> Ok(CAF)
-    "TCD" -> Ok(TCD)
-    "CHL" -> Ok(CHL)
-    "CHN" -> Ok(CHN)
-    "CXR" -> Ok(CXR)
-    "CCK" -> Ok(CCK)
-    "COL" -> Ok(COL)
-    "COM" -> Ok(COM)
-    "COG" -> Ok(COG)
-    "COD" -> Ok(COD)
-    "COK" -> Ok(COK)
-    "CRI" -> Ok(CRI)
-    "CIV" -> Ok(CIV)
-    "HRV" -> Ok(HRV)
-    "CUB" -> Ok(CUB)
-    "CUW" -> Ok(CUW)
-    "CYP" -> Ok(CYP)
-    "CZE" -> Ok(CZE)
-    "DNK" -> Ok(DNK)
-    "DJI" -> Ok(DJI)
-    "DMA" -> Ok(DMA)
-    "DOM" -> Ok(DOM)
-    "ECU" -> Ok(ECU)
-    "EGY" -> Ok(EGY)
-    "SLV" -> Ok(SLV)
-    "GNQ" -> Ok(GNQ)
-    "ERI" -> Ok(ERI)
-    "EST" -> Ok(EST)
-    "SWZ" -> Ok(SWZ)
-    "ETH" -> Ok(ETH)
-    "FLK" -> Ok(FLK)
-    "FRO" -> Ok(FRO)
-    "FJI" -> Ok(FJI)
-    "FIN" -> Ok(FIN)
-    "FRA" -> Ok(FRA)
-    "GUF" -> Ok(GUF)
-    "PYF" -> Ok(PYF)
-    "ATF" -> Ok(ATF)
-    "GAB" -> Ok(GAB)
-    "GMB" -> Ok(GMB)
-    "GEO" -> Ok(GEO)
-    "DEU" -> Ok(DEU)
-    "GHA" -> Ok(GHA)
-    "GIB" -> Ok(GIB)
-    "GRC" -> Ok(GRC)
-    "GRL" -> Ok(GRL)
-    "GRD" -> Ok(GRD)
-    "GLP" -> Ok(GLP)
-    "GUM" -> Ok(GUM)
-    "GTM" -> Ok(GTM)
-    "GGY" -> Ok(GGY)
-    "GIN" -> Ok(GIN)
-    "GNB" -> Ok(GNB)
-    "GUY" -> Ok(GUY)
-    "HTI" -> Ok(HTI)
-    "HMD" -> Ok(HMD)
-    "VAT" -> Ok(VAT)
-    "HND" -> Ok(HND)
-    "HKG" -> Ok(HKG)
-    "HUN" -> Ok(HUN)
-    "ISL" -> Ok(ISL)
-    "IND" -> Ok(IND)
-    "IDN" -> Ok(IDN)
-    "IRN" -> Ok(IRN)
-    "IRQ" -> Ok(IRQ)
-    "IRL" -> Ok(IRL)
-    "IMN" -> Ok(IMN)
-    "ISR" -> Ok(ISR)
-    "ITA" -> Ok(ITA)
-    "JAM" -> Ok(JAM)
-    "JPN" -> Ok(JPN)
-    "JEY" -> Ok(JEY)
-    "JOR" -> Ok(JOR)
-    "KAZ" -> Ok(KAZ)
-    "KEN" -> Ok(KEN)
-    "KIR" -> Ok(KIR)
-    "PRK" -> Ok(PRK)
-    "KOR" -> Ok(KOR)
-    "KWT" -> Ok(KWT)
-    "KGZ" -> Ok(KGZ)
-    "LAO" -> Ok(LAO)
-    "LVA" -> Ok(LVA)
-    "LBN" -> Ok(LBN)
-    "LSO" -> Ok(LSO)
-    "LBR" -> Ok(LBR)
-    "LBY" -> Ok(LBY)
-    "LIE" -> Ok(LIE)
-    "LTU" -> Ok(LTU)
-    "LUX" -> Ok(LUX)
-    "MAC" -> Ok(MAC)
-    "MDG" -> Ok(MDG)
-    "MWI" -> Ok(MWI)
-    "MYS" -> Ok(MYS)
-    "MDV" -> Ok(MDV)
-    "MLI" -> Ok(MLI)
-    "MLT" -> Ok(MLT)
-    "MHL" -> Ok(MHL)
-    "MTQ" -> Ok(MTQ)
-    "MRT" -> Ok(MRT)
-    "MUS" -> Ok(MUS)
-    "MYT" -> Ok(MYT)
-    "MEX" -> Ok(MEX)
-    "FSM" -> Ok(FSM)
-    "MDA" -> Ok(MDA)
-    "MCO" -> Ok(MCO)
-    "MNG" -> Ok(MNG)
-    "MNE" -> Ok(MNE)
-    "MSR" -> Ok(MSR)
-    "MAR" -> Ok(MAR)
-    "MOZ" -> Ok(MOZ)
-    "MMR" -> Ok(MMR)
-    "NAM" -> Ok(NAM)
-    "NRU" -> Ok(NRU)
-    "NPL" -> Ok(NPL)
-    "NLD" -> Ok(NLD)
-    "NCL" -> Ok(NCL)
-    "NZL" -> Ok(NZL)
-    "NIC" -> Ok(NIC)
-    "NER" -> Ok(NER)
-    "NGA" -> Ok(NGA)
-    "NIU" -> Ok(NIU)
-    "NFK" -> Ok(NFK)
-    "MKD" -> Ok(MKD)
-    "MNP" -> Ok(MNP)
-    "NOR" -> Ok(NOR)
-    "OMN" -> Ok(OMN)
-    "PAK" -> Ok(PAK)
-    "PLW" -> Ok(PLW)
-    "PSE" -> Ok(PSE)
-    "PAN" -> Ok(PAN)
-    "PNG" -> Ok(PNG)
-    "PRY" -> Ok(PRY)
-    "PER" -> Ok(PER)
-    "PHL" -> Ok(PHL)
-    "PCN" -> Ok(PCN)
-    "POL" -> Ok(POL)
-    "PRT" -> Ok(PRT)
-    "PRI" -> Ok(PRI)
-    "QAT" -> Ok(QAT)
-    "REU" -> Ok(REU)
-    "ROU" -> Ok(ROU)
-    "RUS" -> Ok(RUS)
-    "RWA" -> Ok(RWA)
-    "BLM" -> Ok(BLM)
-    "SHN" -> Ok(SHN)
-    "KNA" -> Ok(KNA)
-    "LCA" -> Ok(LCA)
-    "MAF" -> Ok(MAF)
-    "SPM" -> Ok(SPM)
-    "VCT" -> Ok(VCT)
-    "WSM" -> Ok(WSM)
-    "SMR" -> Ok(SMR)
-    "STP" -> Ok(STP)
-    "SAU" -> Ok(SAU)
-    "SEN" -> Ok(SEN)
-    "SRB" -> Ok(SRB)
-    "SYC" -> Ok(SYC)
-    "SLE" -> Ok(SLE)
-    "SGP" -> Ok(SGP)
-    "SXM" -> Ok(SXM)
-    "SVK" -> Ok(SVK)
-    "SVN" -> Ok(SVN)
-    "SLB" -> Ok(SLB)
-    "SOM" -> Ok(SOM)
-    "ZAF" -> Ok(ZAF)
-    "SGS" -> Ok(SGS)
-    "SSD" -> Ok(SSD)
-    "ESP" -> Ok(ESP)
-    "LKA" -> Ok(LKA)
-    "SDN" -> Ok(SDN)
-    "SUR" -> Ok(SUR)
-    "SJM" -> Ok(SJM)
-    "SWE" -> Ok(SWE)
-    "CHE" -> Ok(CHE)
-    "SYR" -> Ok(SYR)
-    "TWN" -> Ok(TWN)
-    "TJK" -> Ok(TJK)
-    "TZA" -> Ok(TZA)
-    "THA" -> Ok(THA)
-    "TLS" -> Ok(TLS)
-    "TGO" -> Ok(TGO)
-    "TKL" -> Ok(TKL)
-    "TON" -> Ok(TON)
-    "TTO" -> Ok(TTO)
-    "TUN" -> Ok(TUN)
-    "TUR" -> Ok(TUR)
-    "TKM" -> Ok(TKM)
-    "TCA" -> Ok(TCA)
-    "TUV" -> Ok(TUV)
-    "UGA" -> Ok(UGA)
-    "UKR" -> Ok(UKR)
-    "ARE" -> Ok(ARE)
-    "GBR" -> Ok(GBR)
-    "UMI" -> Ok(UMI)
-    "USA" -> Ok(USA)
-    "URY" -> Ok(URY)
-    "UZB" -> Ok(UZB)
-    "VUT" -> Ok(VUT)
-    "VEN" -> Ok(VEN)
-    "VNM" -> Ok(VNM)
-    "VGB" -> Ok(VGB)
-    "VIR" -> Ok(VIR)
-    "WLF" -> Ok(WLF)
-    "ESH" -> Ok(ESH)
-    "YEM" -> Ok(YEM)
-    "ZMB" -> Ok(ZMB)
-    "ZWE" -> Ok(ZWE)
+    "AFG" -> Ok(Afg)
+    "ALA" -> Ok(Ala)
+    "ALB" -> Ok(Alb)
+    "DZA" -> Ok(Dza)
+    "ASM" -> Ok(Asm)
+    "AND" -> Ok(And)
+    "AGO" -> Ok(Ago)
+    "AIA" -> Ok(Aia)
+    "ATA" -> Ok(Ata)
+    "ATG" -> Ok(Atg)
+    "ARG" -> Ok(Arg)
+    "ARM" -> Ok(Arm)
+    "ABW" -> Ok(Abw)
+    "AUS" -> Ok(Aus)
+    "AUT" -> Ok(Aut)
+    "AZE" -> Ok(Aze)
+    "BHS" -> Ok(Bhs)
+    "BHR" -> Ok(Bhr)
+    "BGD" -> Ok(Bgd)
+    "BRB" -> Ok(Brb)
+    "BLR" -> Ok(Blr)
+    "BEL" -> Ok(Bel)
+    "BLZ" -> Ok(Blz)
+    "BEN" -> Ok(Ben)
+    "BMU" -> Ok(Bmu)
+    "BTN" -> Ok(Btn)
+    "BOL" -> Ok(Bol)
+    "BES" -> Ok(Bes)
+    "BIH" -> Ok(Bih)
+    "BWA" -> Ok(Bwa)
+    "BVT" -> Ok(Bvt)
+    "BRA" -> Ok(Bra)
+    "IOT" -> Ok(Iot)
+    "BRN" -> Ok(Brn)
+    "BGR" -> Ok(Bgr)
+    "BFA" -> Ok(Bfa)
+    "BDI" -> Ok(Bdi)
+    "CPV" -> Ok(Cpv)
+    "KHM" -> Ok(Khm)
+    "CMR" -> Ok(Cmr)
+    "CAN" -> Ok(Can)
+    "CYM" -> Ok(Cym)
+    "CAF" -> Ok(Caf)
+    "TCD" -> Ok(Tcd)
+    "CHL" -> Ok(Chl)
+    "CHN" -> Ok(Chn)
+    "CXR" -> Ok(Cxr)
+    "CCK" -> Ok(Cck)
+    "COL" -> Ok(Col)
+    "COM" -> Ok(Com)
+    "COG" -> Ok(Cog)
+    "COD" -> Ok(Cod)
+    "COK" -> Ok(Cok)
+    "CRI" -> Ok(Cri)
+    "CIV" -> Ok(Civ)
+    "HRV" -> Ok(Hrv)
+    "CUB" -> Ok(Cub)
+    "CUW" -> Ok(Cuw)
+    "CYP" -> Ok(Cyp)
+    "CZE" -> Ok(Cze)
+    "DNK" -> Ok(Dnk)
+    "DJI" -> Ok(Dji)
+    "DMA" -> Ok(Dma)
+    "DOM" -> Ok(Dom)
+    "ECU" -> Ok(Ecu)
+    "EGY" -> Ok(Egy)
+    "SLV" -> Ok(Slv)
+    "GNQ" -> Ok(Gnq)
+    "ERI" -> Ok(Eri)
+    "EST" -> Ok(Est)
+    "SWZ" -> Ok(Swz)
+    "ETH" -> Ok(Eth)
+    "FLK" -> Ok(Flk)
+    "FRO" -> Ok(Fro)
+    "FJI" -> Ok(Fji)
+    "FIN" -> Ok(Fin)
+    "FRA" -> Ok(Fra)
+    "GUF" -> Ok(Guf)
+    "PYF" -> Ok(Pyf)
+    "ATF" -> Ok(Atf)
+    "GAB" -> Ok(Gab)
+    "GMB" -> Ok(Gmb)
+    "GEO" -> Ok(Geo)
+    "DEU" -> Ok(Deu)
+    "GHA" -> Ok(Gha)
+    "GIB" -> Ok(Gib)
+    "GRC" -> Ok(Grc)
+    "GRL" -> Ok(Grl)
+    "GRD" -> Ok(Grd)
+    "GLP" -> Ok(Glp)
+    "GUM" -> Ok(Gum)
+    "GTM" -> Ok(Gtm)
+    "GGY" -> Ok(Ggy)
+    "GIN" -> Ok(Gin)
+    "GNB" -> Ok(Gnb)
+    "GUY" -> Ok(Guy)
+    "HTI" -> Ok(Hti)
+    "HMD" -> Ok(Hmd)
+    "VAT" -> Ok(Vat)
+    "HND" -> Ok(Hnd)
+    "HKG" -> Ok(Hkg)
+    "HUN" -> Ok(Hun)
+    "ISL" -> Ok(Isl)
+    "IND" -> Ok(Ind)
+    "IDN" -> Ok(Idn)
+    "IRN" -> Ok(Irn)
+    "IRQ" -> Ok(Irq)
+    "IRL" -> Ok(Irl)
+    "IMN" -> Ok(Imn)
+    "ISR" -> Ok(Isr)
+    "ITA" -> Ok(Ita)
+    "JAM" -> Ok(Jam)
+    "JPN" -> Ok(Jpn)
+    "JEY" -> Ok(Jey)
+    "JOR" -> Ok(Jor)
+    "KAZ" -> Ok(Kaz)
+    "KEN" -> Ok(Ken)
+    "KIR" -> Ok(Kir)
+    "PRK" -> Ok(Prk)
+    "KOR" -> Ok(Kor)
+    "KWT" -> Ok(Kwt)
+    "KGZ" -> Ok(Kgz)
+    "LAO" -> Ok(Lao)
+    "LVA" -> Ok(Lva)
+    "LBN" -> Ok(Lbn)
+    "LSO" -> Ok(Lso)
+    "LBR" -> Ok(Lbr)
+    "LBY" -> Ok(Lby)
+    "LIE" -> Ok(Lie)
+    "LTU" -> Ok(Ltu)
+    "LUX" -> Ok(Lux)
+    "MAC" -> Ok(Mac)
+    "MDG" -> Ok(Mdg)
+    "MWI" -> Ok(Mwi)
+    "MYS" -> Ok(Mys)
+    "MDV" -> Ok(Mdv)
+    "MLI" -> Ok(Mli)
+    "MLT" -> Ok(Mlt)
+    "MHL" -> Ok(Mhl)
+    "MTQ" -> Ok(Mtq)
+    "MRT" -> Ok(Mrt)
+    "MUS" -> Ok(Mus)
+    "MYT" -> Ok(Myt)
+    "MEX" -> Ok(Mex)
+    "FSM" -> Ok(Fsm)
+    "MDA" -> Ok(Mda)
+    "MCO" -> Ok(Mco)
+    "MNG" -> Ok(Mng)
+    "MNE" -> Ok(Mne)
+    "MSR" -> Ok(Msr)
+    "MAR" -> Ok(Mar)
+    "MOZ" -> Ok(Moz)
+    "MMR" -> Ok(Mmr)
+    "NAM" -> Ok(Nam)
+    "NRU" -> Ok(Nru)
+    "NPL" -> Ok(Npl)
+    "NLD" -> Ok(Nld)
+    "NCL" -> Ok(Ncl)
+    "NZL" -> Ok(Nzl)
+    "NIC" -> Ok(Nic)
+    "NER" -> Ok(Ner)
+    "NGA" -> Ok(Nga)
+    "NIU" -> Ok(Niu)
+    "NFK" -> Ok(Nfk)
+    "MKD" -> Ok(Mkd)
+    "MNP" -> Ok(Mnp)
+    "NOR" -> Ok(Nor)
+    "OMN" -> Ok(Omn)
+    "PAK" -> Ok(Pak)
+    "PLW" -> Ok(Plw)
+    "PSE" -> Ok(Pse)
+    "PAN" -> Ok(Pan)
+    "PNG" -> Ok(Png)
+    "PRY" -> Ok(Pry)
+    "PER" -> Ok(Per)
+    "PHL" -> Ok(Phl)
+    "PCN" -> Ok(Pcn)
+    "POL" -> Ok(Pol)
+    "PRT" -> Ok(Prt)
+    "PRI" -> Ok(Pri)
+    "QAT" -> Ok(Qat)
+    "REU" -> Ok(Reu)
+    "ROU" -> Ok(Rou)
+    "RUS" -> Ok(Rus)
+    "RWA" -> Ok(Rwa)
+    "BLM" -> Ok(Blm)
+    "SHN" -> Ok(Shn)
+    "KNA" -> Ok(Kna)
+    "LCA" -> Ok(Lca)
+    "MAF" -> Ok(Maf)
+    "SPM" -> Ok(Spm)
+    "VCT" -> Ok(Vct)
+    "WSM" -> Ok(Wsm)
+    "SMR" -> Ok(Smr)
+    "STP" -> Ok(Stp)
+    "SAU" -> Ok(Sau)
+    "SEN" -> Ok(Sen)
+    "SRB" -> Ok(Srb)
+    "SYC" -> Ok(Syc)
+    "SLE" -> Ok(Sle)
+    "SGP" -> Ok(Sgp)
+    "SXM" -> Ok(Sxm)
+    "SVK" -> Ok(Svk)
+    "SVN" -> Ok(Svn)
+    "SLB" -> Ok(Slb)
+    "SOM" -> Ok(Som)
+    "ZAF" -> Ok(Zaf)
+    "SGS" -> Ok(Sgs)
+    "SSD" -> Ok(Ssd)
+    "ESP" -> Ok(Esp)
+    "LKA" -> Ok(Lka)
+    "SDN" -> Ok(Sdn)
+    "SUR" -> Ok(Sur)
+    "SJM" -> Ok(Sjm)
+    "SWE" -> Ok(Swe)
+    "CHE" -> Ok(Che)
+    "SYR" -> Ok(Syr)
+    "TWN" -> Ok(Twn)
+    "TJK" -> Ok(Tjk)
+    "TZA" -> Ok(Tza)
+    "THA" -> Ok(Tha)
+    "TLS" -> Ok(Tls)
+    "TGO" -> Ok(Tgo)
+    "TKL" -> Ok(Tkl)
+    "TON" -> Ok(Ton)
+    "TTO" -> Ok(Tto)
+    "TUN" -> Ok(Tun)
+    "TUR" -> Ok(Tur)
+    "TKM" -> Ok(Tkm)
+    "TCA" -> Ok(Tca)
+    "TUV" -> Ok(Tuv)
+    "UGA" -> Ok(Uga)
+    "UKR" -> Ok(Ukr)
+    "ARE" -> Ok(Are)
+    "GBR" -> Ok(Gbr)
+    "UMI" -> Ok(Umi)
+    "USA" -> Ok(Usa)
+    "URY" -> Ok(Ury)
+    "UZB" -> Ok(Uzb)
+    "VUT" -> Ok(Vut)
+    "VEN" -> Ok(Ven)
+    "VNM" -> Ok(Vnm)
+    "VGB" -> Ok(Vgb)
+    "VIR" -> Ok(Vir)
+    "WLF" -> Ok(Wlf)
+    "ESH" -> Ok(Esh)
+    "YEM" -> Ok(Yem)
+    "ZMB" -> Ok(Zmb)
+    "ZWE" -> Ok(Zwe)
     _ -> Error(IncorrectAlpha3Code)
   }
 }
